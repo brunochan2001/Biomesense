@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    
+    font-size: 0.15rem;
+    line-height: 0.24rem;
+}
+/* Header */
+.navigation{   
+display: flex;
+width: 100%;
+height: 17.5vw;
+align-items: center;
+/* position:fixed; */        
+}
+.container-header{
+width: 87.5%;
+height: 57.14%;
+position: relative;
+display: flex;
+margin-right: auto;
+margin-left: auto;
+justify-content: center;
+}
+.nav{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+.nav-logo{
+cursor: pointer;
+width: 39%;
+height: 100%;
+outline: 0;
+background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+background-position: 0px 0px;
+background-size: cover;
+text-decoration: none;
+display: inline-block;
+background-color: transparent;
+}
+.nav-list{
+display: none;
+}
+.menu-open{
+width: 8.5%;
+height: 75%;
+background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156297cdf2d671c_menu-open%402x.svg);
+background-position: 0px 0px;
+background-size: cover;
+}
+
+/* MAIN  */
+.main{
+    position: relative;
+    width: 100%;
+}
+/* Secciones de video */
+.hero-section{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 100%; 
+}
+.hero-video{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+/* Titulo del video */
+.hero-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw; 
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.container-wrap{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 87.5%; 
+    display: block;
+    font-weight: 800;
+    
+}
+.block-1{
+    color: #f6fcfb;
+    margin-bottom:27px;
+  
+}
+.h-1{
+    font-size: 43px;
+    
+}
+.text-span{
+    color: #00EDC2;
+}
+/* Parrafo del video */
+.block-2{
+    color: #CAE9E2;
+    font-size: 16.875px;
+    margin-bottom:18px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+/* Boton del parafo */
+.block-3{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(0,237,194,0.1);
+    justify-content: center;
+    width: 130px;
+    height: 45px;
+    border-radius: 9px;
+    text-decoration: none;
+    
+    
+}
+
+.btn-1-text{
+    font-family: 'Inter', sans-serif;
+    color: #00edc2;
+    font-size: 15.75px;
+    font-weight: 800;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.btn-1-icon{
+    width: 20px;
+    height: 20px;
+    
+}
+.btn-1-arrow-default{
+    background-color: tomato;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562983af2d675d_btn-1-arrow-default@2x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    
+}
