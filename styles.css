@@ -75,15 +75,14 @@ background-size: cover;
 }
 /* Titulo del video */
 .hero-container{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw; 
-    height: 643px;
+    height: 180vw;
     font-family: 'Inter', sans-serif;
     
-    background-color: red;
     
 }
 .container-wrap{
@@ -183,9 +182,8 @@ background-size: cover;
 
 /* Segundo main */
 .here-section-2{
-    margin-top: 112.5px;
+    margin-top: 207vw;
     position: relative;
-    
     width: 100%;
 
 }
@@ -328,7 +326,7 @@ background-size: cover;
 .three-main{
     background-color:#f8f8f8;
     font-family: 'Inter', sans-serif;
-    margin-top: 108px;
+    margin-top: 75px;
 }
 .widget-wrap{
     display: flex;
