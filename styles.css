@@ -57,10 +57,10 @@ background-size: cover;
 
 /* MAIN  */
 .main{
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    
 }
+/* PRIMER MAIN */
 /* Secciones de video */
 .hero-section{
     margin-left: auto;
@@ -75,16 +75,15 @@ background-size: cover;
 }
 /* Titulo del video */
 .hero-container{
-    /* position:absolute; */
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw; 
-    height: 100vh;
+    height: 643px;
     font-family: 'Inter', sans-serif;
-    z-index: 2000;
     
-    
+    background-color: red;
     
 }
 .container-wrap{
@@ -184,12 +183,10 @@ background-size: cover;
 
 /* Segundo main */
 .here-section-2{
-    
     margin-top: 112.5px;
     position: relative;
+    
     width: 100%;
-}
-.grey-bg{
 
 }
 .here-section-2-1{
@@ -197,35 +194,313 @@ background-size: cover;
     position: relative;
     width: auto;
 }
-.div-block-4{
-    font-size: 17px;
+.div-block-4{   
     line-height: 27px;
     width: 87.9%;
-    
+    letter-spacing: 0.28px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .subtitle-1{
     color: #81848a;
+    font-size: 13.5px;
+    letter-spacing: 0.28px;
 }
 .div-block-3{
     font-family: 'Inter', sans-serif;
     width: 87.9%;
+    position: relative;
+    top: 73.12;
     margin-bottom: 27px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .h-3{
-    
-    color: #1a1b1c;
+    position: relative;
+    top: auto;
+    display: block;
+    width: auto;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.78px;
+    font-weight: 500;
 }
 .text-span-2{
-    font-family: 'Inter', sans-serif;
     color: #009e82;
     font-size: 27px;
     line-height: 0.32rem;
     font-weight: 500;
+}
+.div-block-5{
+    font-family: 'Inter', sans-serif;
+    width: 87.9%;
+    margin-bottom: 36px;
+    position: relative;
+    top: 73;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc-2{
+    text-align: center;
+    color: #81848a;
+    font-weight: 300;
+    line-height: 27px;
+}
+.m-t{
+    margin-top: 18px;
+    letter-spacing: -0.3px;
+}
+.btn-2{
+    background-color: rgba(202, 233, 226, 0.64);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    display: block;
+    width: 43.14%;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 9px;
+}
+.btn-2-text{
+    margin-right: 9px;
+    color: #009e82;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.29px;
+    text-decoration: none;
+}
+.btn-2-icon{
+    position:relative;
+    width: 20px;
+    height: 20px;
+}
+.btn-2-arrow-hover{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+/* .btn-1-arrow-default{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562983af2d675d_btn-1-arrow-default%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    display: block;
+    width: 20px;
+    height: 20px;
+} */
+.h-bg-visual-1{
+    position: absolute;
+    left:-76.16px;
+    top: -53.76px;
+    right: auto;
+    bottom: auto;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 210px;
+    height: 226px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629aece2d66c0_h-bg-visual-1%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+/* 3er main */
+.three-main{
+    background-color:#f8f8f8;
+    font-family: 'Inter', sans-serif;
+    margin-top: 108px;
+}
+.widget-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 87.9%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#f8f8f8;
+}
+.c-panel{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 63px;
+    margin-bottom: 31.5px;
+    margin-top: 35px;
+}
+.toggle-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-block-2{
+    margin-right: 18px;
+    color: #81848a;
+    font-size: 13.5px;
+    letter-spacing: 0.28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.toggle{
+    position: relative;
+    width: 51.75px;
+    height: 27px;
+}
+.active-bg{
+    width: 51px;
+    height: 27px;
+    border-radius: 197px;
+    background-color: #009e82;
+}
+.inactive-bg{
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 51px;
+    height: 27px;
+    border-radius: 197px;
+    background-color: #bfbfbf;
+}
+.toggle-btn{
+    position: absolute;
+    left: 2.25px;
+    top: 2.25px;
+    right: auto;
+    bottom: auto;
+    width: 22.5px;
+    height: 22.5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.hor-line-grey{
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    display: block;
+    height: 1.125px;
+    width: 100%;
+    background-color: #81848a;
+    opacity: 0.16;
+}
+.img-panel{
+    position: relative;
+}
+.visual-img-1{
+    position: absolute;
+    width: 315px;
+    height: 273px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156292ba42d66dd_visual-widget-1-mobile%402x-min.png);
+    /* position: absolute; */
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.visual-img-2{
+    position: relative;
+    left: 11.25px;
+    width: 315px;
+    height: 263.8px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629de0d2d66c1_visual-widget-2-mobile%402x.png);
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-110{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 30px;
+    width: 225px;
+    /* height: 121.5px; */
+    display: flex;
+    flex-direction: column;
+}
+.block-14{
+    width: 225px;
+    height: 76.5px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562988e52d673d_tooltip-body%402x.png);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.block-15{
+    margin-left: 180px;
+    display: flex;
+    width: 25.8px;
+    height: 25.8px;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
 
+}
+.block-16{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ec6b55;
+}
+.logo-panel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.logo-panel-1{
+    height: 36px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.block-29{
+    width: 122px ;
+    height: 36px;
+    margin-right:9px ;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.text-block{
+    color: #81848a;
+    font-size: 13.5;
+    letter-spacing: 0.28px;
 }
