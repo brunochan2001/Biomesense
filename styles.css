@@ -502,3 +502,133 @@ background-size: cover;
     font-size: 13.5;
     letter-spacing: 0.28px;
 }
+/* Cuarto main */
+.four-main{
+    margin-top: 212px;
+    position: relative;
+    width: 100%;
+    font-size: 16.875px;
+    line-height: 27px;
+}
+.four-main-container{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 315px;
+    background-color: transparent;
+}
+.img-1-wrap{
+    display: none;
+}
+.content-wrap{
+    position: relative;
+    width: auto;
+    display: block;
+}
+.div-block-6{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 9px;
+    text-align: center;
+    position: relative;
+    top: 73;
+}
+.subtitle-1{
+    position: relative;
+    top: auto;
+    font-size: 13.5px;
+    color: #81848a;
+    letter-spacing: 0.28px;
+}
+.div-block-8{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 45px;
+    text-align: center;
+    position: relative;
+    top: 73;
+}
+.h-3{
+    position: relative;
+    top:auto;
+    display: block;
+    width: auto;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+}
+.text-span-48{
+    color: #009e82;
+}
+.text-span-49{
+    color: #009e82;
+}
+.img-1-wrap-tablet{
+    width: 315px;
+    height: 247.5px;
+    display: block;
+    margin-bottom: 13.5px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156297d492d66e5_h-visual-3-tablet%402x-min.png);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-7{
+    font-family: 'Inter', sans-serif;
+    width: 325px;
+    margin-bottom: 36px;
+    position: relative;
+    top: 73;
+
+}
+.desc-2{
+    text-align: center;
+    color: #81848a;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.superscript{
+    position: relative;
+    top: -5px;
+    font-size: 11px;
+    text-align: left;
+}
+.btn-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220.5px;
+    height: 45px;
+    padding: 0;
+    border-radius: 9px;
+    color: rgb(0,0,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 16.875px;
+    line-height: 27px;
+}
+.btn-2-text{
+    font-family: 'Inter', sans-serif;
+    margin-right: 9px;
+    color: #009e82;
+    font-size: 15.75px;
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    height: 27px;
+}
+.btn-2-icon{
+    position: relative;
+    width: 20.25px;
+    height: 20.25px;
+}
+.h-bg-visual-2{
+    left: 66.3px;
+    top: -31.5px;
+    right: auto;
+    bottom: auto;
+    width: 182px;
+    height: 142px;
+    position: absolute;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156296db12d66c3_h-bg-visual-2%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
