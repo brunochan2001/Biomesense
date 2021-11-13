@@ -632,3 +632,59 @@ background-size: cover;
     background-position: 0px 0px;
     background-size: cover;
 }
+
+/* 5to main */
+.h-section-5{
+    margin-top: 210px;
+    position: relative;
+    width: 100%;
+
+}
+.h-section-5-container{
+    left: auto;
+    width: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: auto;
+    background-color: transparent;
+    margin-right: auto;
+}
+.content-wrap{
+    position: relative;
+    width: auto;
+}
+.div-block-9{
+    margin-bottom: 9px;
+    text-align: center;
+    position: relative;
+    top: 73px;
+}
+.subtitle-1{
+    position: relative;
+    top: auto;
+    font-size: 13.5px;
+    color: #81848a;
+    letter-spacing: 0.28px;
+    text-align: center;
+}
+.div-block-11{
+    width: 315px;
+    margin-bottom: 27px;
+    text-align: left;
+    position: relative;
+    top: 73px;
+}
+.h-3{
+    position: relative;
+    top: auto;
+    display: block;
+    width: auto;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    left: auto;
+    color: #1a1b1c;
+    font-weight: 500;
+    letter-spacing: -0.78px;
+}
