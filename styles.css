@@ -1097,3 +1097,194 @@ background-size: cover;
     background-position: 0px 0px;
     background-size: cover;
 }
+/* 7TO Main */
+.h-section-7{
+    font-family: 'Inter', sans-serif;
+    width:360px;
+    height: 843px;
+    margin-top: 117px;
+    margin-bottom: 63px;
+    position: relative;
+    display: flex;
+    margin: 159px auto 45px;
+    align-items: center;
+}
+.here-video-2{
+    position: absolute;
+    height: 943.5px;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+}
+.here-video-2-mobile{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+    height: 100%;
+}
+.h-section-7-container{
+    width: 315px;
+    position:relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+.div-block-36{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-h-section-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: auto;
+}
+.div-block-21{
+    margin-bottom: 27px;
+    text-align: center;
+    position: relative;
+    top: 73px; 
+   
+}
+.h-2{
+    font-size:43px;
+    line-height: 54px;
+    color: #f6fcfb;
+    font-weight: 500;
+    letter-spacing: -1.4px;
+}
+.text-span-7{
+    color: #00edc2;
+    font-weight: 500;
+    letter-spacing: -1.4px;
+}
+.div-block-20{
+    width: 315px;
+    margin-bottom: 36px;
+    text-align: center;
+    position: relative;
+    top: 73px;
+}
+.desc-1{
+    margin-bottom: 18px;
+    color: #cae9e2;
+    font-size: 16.8px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 27px;
+}
+.btn-2-section-7{
+    position: relative;
+    top: 73px;
+    width: 130.5px;
+    height: 45px;
+    padding: 0px;
+    justify-content: center;
+    border-radius: 5.6px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgba(0, 237, 194, 0.16), rgba(0, 237, 194, 0.16));
+}
+.cta-widget-section-7{
+    width: 315px;
+    height: 284px;
+    position: relative;
+}
+.div-block-22{
+    position: absolute;
+    left: 87.75px;
+    top: 95.6px;
+    right: auto;
+    bottom: auto;
+    width: 162px;
+    height: 97.8px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562902bb2d66d7_1%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-23{
+    position: absolute;
+    left: 93px;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    width: 117px;
+    height: 104px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629e1aa2d66c6_2%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-24{
+    position: absolute;
+    left: auto;
+    top: 41.5px;
+    right: 4.5px;
+    bottom: auto;
+    width: 100px;
+    height: 87.7px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562936ba2d66dc_3%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-25{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 19px;
+    bottom: 41.5px;
+    width: 112.5px;
+    height: 108px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629b4e92d66ca_4%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-26{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 102px;
+    bottom: 6.7px;
+    width: 99px;
+    height: 86.5px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629a5bb2d66e4_5%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-27{
+    position: absolute;
+    left: 4.5px;
+    top: auto;
+    right: auto;
+    bottom: 36px;
+    width: 115px;
+    height: 115px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562966cc2d66ce_6%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.div-block-28{
+    position: absolute;
+    left: 9px;
+    top: 32.5px;
+    right: auto;
+    bottom: auto;
+    width: 99px;
+    height: 96.5px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562983762d66c9_7%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
