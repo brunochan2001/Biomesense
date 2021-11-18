@@ -1,0 +1,134 @@
+.footer{
+    padding-bottom: 36px;
+    position: relative;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 182px;
+}
+.container-footer{
+    width: 315px;
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+.div-block-35{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+    width: 315px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-logo{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo-1{
+    margin-bottom: 9px;
+    width: 122.5px;
+    height: 36px;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.copyright{
+    color: #81848a;
+    font-size: 13.5px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-list-wrap{
+    margin-bottom: 54px;
+    margin-left: 0px;
+    text-align: center;
+}
+.nav-title{
+    margin-bottom: 18px;
+    color: #1a1b1c;
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+.list-nav{
+    display: flex;
+    flex-direction: column;
+}
+.link-footer-1{
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+.list-item{
+    font-size: 15.7px;
+    line-height: 24.7px;
+    margin-bottom: 13.5px;
+    color: #81848a;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+}
+.link-footer-2{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.link-footer-3{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.list-item-1{
+    margin-bottom: 0px;
+    font-size: 15.7px;
+    line-height: 24.7px;
+    color: #81848a;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+}
+.link-footer-4{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.link-footer-5{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.link-footer-6{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.link-footer-7{
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
