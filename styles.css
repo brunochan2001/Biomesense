@@ -14,7 +14,7 @@
 /* PRIMER MAIN */
 /* Secciones de video */
 .hero-section{
-    margin-top: 63px;
+    margin-top: 17.5vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -50,8 +50,9 @@
     margin-bottom:27px;
 }
 .h-1{
-    font-size: 43px;
+    font-size: 12.1875vw;
     font-weight: 500;
+    letter-spacing: -1.76px;
 }
 .text-span{
     color: #00EDC2;
@@ -59,7 +60,7 @@
 /* Parrafo del video */
 .block-2{
     color: #cae9e2;
-    font-size: 16.875px;
+    font-size: 4.6875vw;
     margin-bottom:18px;
     line-height: 27px;
     font-weight: 300;
@@ -71,8 +72,8 @@
     flex-wrap: nowrap;
     background-color: rgba(0,237,194,0.1);
     justify-content: center;
-    width: 130px;
-    height: 45px;
+    width: 36.25vw;
+    height: 12.5vw;
     border-radius: 9px;
     text-decoration: none;    
     margin-top: 40px;
@@ -147,7 +148,7 @@
 }
 .subtitle-1{
     color: #81848a;
-    font-size: 13.5px;
+    font-size: 3.75vw;
     letter-spacing: 0.28px;
 }
 .div-block-3{
@@ -165,7 +166,7 @@
     top: auto;
     display: block;
     width: auto;
-    font-size: 27px;
+    font-size: 7.5vw;
     line-height: 37px;
     text-align: center;
     font-weight: 500;
@@ -174,7 +175,6 @@
 }
 .text-span-2{
     color: #009e82;
-    font-size: 27px;
     line-height: 0.32rem;
     font-weight: 500;
 }
@@ -191,39 +191,45 @@
     text-align: center;
     color: #81848a;
     font-weight: 300;
+    font-size: 4.6875vw;
     line-height: 27px;
 }
 .desc-2-section-2-1{
     margin-top: 18px;
     letter-spacing: -0.3px;
     text-align: center;
-    font-size: 16.8px;
+    font-size: 4.6875vw;
     color: #81848a;
     font-weight: 300;
     line-height: 27px;
 }
-.btn--section-2{
+.btn-section-2{
+
+    margin-right: auto;
+    margin-left: auto;
     background-color: rgba(202, 233, 226, 0.64);
+    width: 42.1875vw;
+    height: 12.5vw;
+    padding: 0px;
+    justify-content: center;
+    border-radius: 9px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     display: block;
-    width: 43.14%;
-    margin-right: auto;
-    margin-left: auto;
     text-decoration: none;
     display: flex;
-    height: 45px;
-    justify-content: center;
-    padding-top: 10px;
-    border-radius: 9px;
+    flex-wrap: nowrap;  
+    align-items: center;  
 }
 .btn-2-text{
     margin-right: 9px;
     color: #009e82;
     font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.29px;
+    font-size: 4.375vw;
+    letter-spacing: 0.28px;
     text-decoration: none;
+    line-height: 27px;
+    
 }
 .btn-2-icon{
     position:relative;
@@ -281,7 +287,7 @@
 .widget-wrap{
     display: flex;
     flex-direction: column;
-    width: 87.9%;
+    width: 87.5%;
     margin-left: auto;
     margin-right: auto;
     background-color:#f8f8f8;
@@ -290,19 +296,20 @@
     position: relative;
     display: flex;
     width: 100%;
-    height: 63px;
+    height: 17.5vw;
     margin-bottom: 31.5px;
-    margin-top: 35px;
+    margin-top: 8.75vw;
 }
 .toggle-wrap{
-    width: 100%;
+    width: 87.5vw;
+    height: 17.5vw;
     display: flex;
     justify-content: space-between;
 }
 .text-block-2{
     margin-right: 18px;
     color: #81848a;
-    font-size: 13.5px;
+    font-size: 3.75vw;
     letter-spacing: 0.28px;
     display: flex;
     flex-direction: column;
@@ -315,12 +322,13 @@
 }
 .toggle{
     position: relative;
-    width: 51.75px;
-    height: 27px;
+    width: 14.375vw;
+    height: 7.5vw;
+    
 }
 .active-bg{
-    width: 51px;
-    height: 27px;
+    width: 14.375vw;
+    height: 7.5vw;
     border-radius: 197px;
     background-color: #009e82;
 }
@@ -331,8 +339,8 @@
     right: auto;
     bottom: auto;
     display: block;
-    width: 51px;
-    height: 27px;
+    width: 14.375vw;
+    height: 7.5vw;
     border-radius: 197px;
     background-color: #bfbfbf;
 }
@@ -342,15 +350,16 @@
     top: 2.25px;
     right: auto;
     bottom: auto;
-    width: 22.5px;
-    height: 22.5px;
+    width: 6.25vw;
+    height: 6.25vw;
     border-radius: 50%;
     background-color: #fff;
 }
 .hor-line-grey{
+    
     position: absolute;
     left: 0%;
-    top: auto;
+    top: 17.5vw;
     right: auto;
     bottom: 0%;
     display: block;
@@ -359,13 +368,19 @@
     background-color: #81848a;
     opacity: 0.16;
 }
+
 .img-panel{
     position: relative;
+    width: 87.7vw;
+    margin-right: auto;
+    margin-left: auto;
+
+
 }
 .visual-img-1{
     position: absolute;
-    width: 315px;
-    height: 273px;
+    width: 87.5vw;
+    height: 75.83vw;
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156292ba42d66dd_visual-widget-1-mobile%402x-min.png);
     /* position: absolute; */
     left: 0%;
@@ -377,9 +392,8 @@
 }
 .visual-img-2{
     position: relative;
-    left: 11.25px;
-    width: 315px;
-    height: 263.8px;
+    width: 87.5vw;
+    height: 73.06vw;
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629de0d2d66c1_visual-widget-2-mobile%402x.png);
     top: 0%;
     right: 0%;
@@ -390,18 +404,19 @@
 }
 .div-block-110{
     position: absolute;
-    left: auto;
-    top: auto;
+    left: 18%;
+    top: 55%;
     right: 0%;
     bottom: 30px;
-    width: 225px;
-    /* height: 121.5px; */
+    width: 62.5vw;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    
 }
 .block-14{
-    width: 225px;
-    height: 76.5px;
+    width: 43.75vw;
+    height: 14.87vw;
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562988e52d673d_tooltip-body%402x.png);
     background-position: 0px 0px;
     background-size: cover;
@@ -409,18 +424,19 @@
 .block-15{
     margin-left: 180px;
     display: flex;
-    width: 25.8px;
-    height: 25.8px;
-    margin-top: 8px;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background-color: #fff;
+    box-shadow: 0 6px 18px 6px rgb(0 0 0 / 16%)
 
 }
 .block-16{
-    width: 8px;
-    height: 8px;
+    width: 1.58vw;
+    height: 1.58vw;
     border-radius: 50%;
     background-color: #ec6b55;
 }
@@ -428,29 +444,37 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 36px;
+    height: 7.5vw;
     display: flex;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 15.27vw;
+    align-items: center;
 }
 .logo-panel-1{
-    height: 36px;
+    width: 55.21%;
+    height: 10vw;
     position: absolute;
     display: flex;
     align-items: center;
 }
 .block-29{
-    width: 122px ;
-    height: 36px;
+    width: 61.69%;
+    height:  10vw;
     margin-right:9px ;
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
     background-position: 0px 0px;
     background-size: cover;
+    display: flex;
 }
 .text-block{
+    width: 18.6754178811vw;
+
+    
+    height: 7.5vw;
     color: #81848a;
-    font-size: 13.5;
+    font-size: 3.75vw;
     letter-spacing: 0.28px;
+    line-height: 7.5vw;
 }
 /* Cuarto main */
 .four-main{
@@ -486,7 +510,7 @@
 .subtitle-1{
     position: relative;
     top: auto;
-    font-size: 13.5px;
+    font-size: 7.5vw;
     color: #81848a;
     letter-spacing: 0.28px;
 }
@@ -502,7 +526,7 @@
     top:auto;
     display: block;
     width: auto;
-    font-size: 27px;
+    font-size: 7.5vw;
     line-height: 36px;
     text-align: center;
 }
@@ -562,7 +586,7 @@
     font-family: 'Inter', sans-serif;
     margin-right: 9px;
     color: #009e82;
-    font-size: 15.75px;
+    font-size: 4.375vw;
     font-weight: 600;
     letter-spacing: 0.28px;
     height: 27px;
@@ -618,7 +642,7 @@
 .subtitle-1{
     position: relative;
     top: auto;
-    font-size: 13.5px;
+    font-size: 3.75vw;
     color: #81848a;
     letter-spacing: 0.28px;
     text-align: center;
@@ -635,7 +659,7 @@
     top: auto;
     display: block;
     width: auto;
-    font-size: 27px;
+    font-size: 7.5vw;
     line-height: 36px;
     text-align: center;
     left: auto;
@@ -738,7 +762,7 @@
 .subtitle-1{
     position: relative;
     top: auto;
-    font-size: 13.5px;
+    font-size: 3.75vw;
     color: #81848a;
     letter-spacing: 0.28px;
 }
@@ -753,7 +777,7 @@
     top: auto;
     display: block;
     width: auto;
-    font-size: 27px;
+    font-size: 7.5vw;
     line-height: 36px;
     text-align: center;
     left: auto;
