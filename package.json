@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-bruno",
+  "version": "1.0.0",
+  "description": "<img src=\"https://www.cssdesignawards.com/cdasites/2021/202108/20210827152416.jpg\" alt=\"img\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunochan2001/Biomesense.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunochan2001/Biomesense/issues"
+  },
+  "homepage": "https://github.com/brunochan2001/Biomesense#readme",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
