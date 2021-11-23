@@ -4,7 +4,8 @@
   "description": "<img src=\"https://www.cssdesignawards.com/cdasites/2021/202108/20210827152416.jpg\" alt=\"img\"/>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/main.scss:css/main.css"
   },
   "repository": {
     "type": "git",
