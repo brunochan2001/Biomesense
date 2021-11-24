@@ -1,49 +1,51 @@
 .footer {
-  padding-bottom: 36px;
+  padding-bottom: 7.5vw;
+
   position: relative;
   width: 100%;
   font-family: "Inter", sans-serif;
 }
 .container-footer {
-  width: 315px;
+  width: 87.5vw;
   position: relative;
   display: flex;
   margin-right: auto;
   margin-left: auto;
   background-color: transparent;
-  margin-top: 75px;
+  margin-top: 20.8333vw;
 }
 .div-block-35 {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-between;
+  width: 87.5vw;
 
-  width: 315px;
-
-  margin-bottom: 10px;
+  margin-bottom: 2.7777vw;
   margin-right: auto;
   margin-left: auto;
 }
 .footer-logo {
-  margin-top: 27px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .footer-logo-1 {
-  margin-bottom: 9px;
-  width: 122.5px;
-  height: 36px;
+  margin-bottom: 2.5vw;
+  width: 34.0638vw;
+  height: 10vw;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
   background-position: 0px 0px;
   background-size: cover;
 }
 .copyright {
   color: #81848a;
-  font-size: 13.5px;
+  font-size: 3.75vw;
   letter-spacing: 0.24px;
   text-transform: uppercase;
+  height: 27px;
+  line-height: 7.5vw;
 }
 .footer-navigation {
   display: flex;
@@ -51,14 +53,15 @@
   align-items: center;
 }
 .nav-list-wrap {
-  margin-bottom: 54px;
+  margin-bottom: 15vw;
   margin-left: 0px;
   text-align: center;
+  line-height: 6.8611vw;
 }
 .nav-title {
-  margin-bottom: 18px;
+  margin-bottom: 5vw;
   color: #1a1b1c;
-  font-size: 13.5px;
+  font-size: 3.75vw;
   font-weight: 500;
   letter-spacing: 0.24px;
   text-transform: uppercase;
@@ -75,9 +78,9 @@
   cursor: pointer;
 }
 .list-item {
-  font-size: 15.7px;
-  line-height: 24.7px;
-  margin-bottom: 13.5px;
+  font-size: 4.3611vw;
+  line-height: 6.8611vw;
+  margin-bottom: 3.75vw;
   color: #81848a;
   letter-spacing: -0.3px;
   cursor: pointer;
@@ -98,8 +101,8 @@
 }
 .list-item-1 {
   margin-bottom: 0px;
-  font-size: 15.7px;
-  line-height: 24.7px;
+  font-size: 4.3611vw;
+  line-height: 6.8611vw;
   color: #81848a;
   letter-spacing: -0.3px;
   cursor: pointer;
@@ -135,25 +138,26 @@
 
 /*  Divisiones */
 .div-1-graphics {
-  position: absolute;
+  margin-top: -1275px;
+  position: relative;
   left: auto;
-  top: 1230px;
+  top: 10px;
   right: auto;
   bottom: auto;
   z-index: -99;
   overflow: visible;
-  width: 100%;
-  height: 1035px;
+  width: 100vw;
+  height: 1400px;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562912f22d6709_h-shape-bg-grey-mobile%402x.svg);
   background-position: 0px 0px;
   background-size: cover;
-  /* background-color: blue; */
-  /* background-color: blue; */
+  // background-color: aqua;
 }
 .div-2-graphics {
   position: absolute;
   left: auto;
-  top: 3430px;
+
+  top: -70px;
   right: auto;
   bottom: auto;
   z-index: -100;
@@ -167,7 +171,7 @@
 .div-3-graphics {
   position: absolute;
   left: auto;
-  top: 4930px;
+  top: -70px;
   right: auto;
   overflow: visible;
   width: 100%;
