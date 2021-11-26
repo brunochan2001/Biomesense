@@ -329,6 +329,33 @@
     height: 4.1642vw;
   }
 }
+@media screen and (min-width: 990px) {
+  .navigation {
+    height: 4.9986vw;
+  }
+
+  .container-header {
+    height: 2.2216vw;
+    width: 83.3316vw;
+  }
+
+  .nav-list-item-active {
+    font-size: 1.041666vw;
+    line-height: 1.6666vw;
+    margin-left: 2.77775vw;
+  }
+
+  .nav-list-item {
+    font-size: 1.041666vw;
+    line-height: 1.6666vw;
+    margin-left: 2.77775vw;
+  }
+
+  .nav-logo {
+    width: 7.5691vw;
+    height: 2.2216vw;
+  }
+}
 /* MAIN  */
 .main {
   width: 100%;
