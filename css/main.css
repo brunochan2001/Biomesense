@@ -220,7 +220,7 @@
 }
 
 .container-header {
-  width: 87.5%;
+  width: 87.5vw;
   height: 57.14%;
   position: relative;
   display: flex;
@@ -261,6 +261,74 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 480px) {
+  .navigation {
+    height: 9.375vw;
+  }
+
+  .container-header {
+    height: 44.41%;
+    width: 78.1247vw;
+  }
+
+  .nav-list {
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-family: "Inter", sans-serif;
+  }
+
+  .link-block-3 {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .link-block-2 {
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .link-block {
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav-list-item-active {
+    color: #009e82;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    margin-left: 5.2083vw;
+    font-size: 1.953124vw;
+    line-height: 3.1249vw;
+  }
+
+  .nav-list-item {
+    color: #81848a;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    margin-left: 5.2083vw;
+    font-size: 1.953124vw;
+    line-height: 3.1249vw;
+  }
+
+  .menu-open {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 14.1933vw;
+    height: 4.1642vw;
+  }
+}
 /* MAIN  */
 .main {
   width: 100%;
@@ -1562,7 +1630,7 @@
 .div-block-23 {
   position: absolute;
   left: 25.8333vw;
-  top: 10vwW;
+  top: 10vww;
   right: auto;
   bottom: auto;
   width: 32.5vw;
