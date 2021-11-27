@@ -512,6 +512,7 @@
 }
 
 .div-block-4 {
+  font-family: "Inter", sans-serif;
   line-height: 27px;
   width: 87.9%;
   letter-spacing: 0.28px;
@@ -603,10 +604,10 @@
 }
 
 .btn-2-text {
-  margin-right: 25.27vw;
+  margin-right: 2.5vw;
   color: #009e82;
   font-weight: 600;
-  font-size: 4.375vw;
+  font-size: 4.275vw;
   letter-spacing: 0.28px;
   text-decoration: none;
   line-height: 27px;
@@ -2131,10 +2132,6 @@
     top: 73;
   }
 
-  .h-3 {
-    line-height: 6.25vw;
-  }
-
   .img-1-wrap-tablet {
     width: 78.125vw;
     height: 59.7656vw;
@@ -2402,9 +2399,10 @@
   }
 
   .h-bg-visual-1 {
-    top: -35px;
-    width: 1.248666vw;
-    height: 1.248666vw;
+    top: -42px;
+    left: -60.16px;
+    width: 18.67966vw;
+    height: 20.069vw;
   }
 
   .three-main {
@@ -2533,7 +2531,7 @@
   .block-29 {
     width: 7.569vw;
     height: 2.2213vw;
-    margin-right: 1.0417vw;
+    margin-right: 0.5555vw;
   }
 
   .text-block {
@@ -2558,52 +2556,78 @@
 
   /* Cuarto main */
   .four-main {
-    margin-top: 106px;
+    margin-top: 13.54vw;
     position: relative;
     width: 100%;
     line-height: 3.0769vw;
   }
 
   .four-main-container {
-    width: 78.125vw;
+    width: 83.332vw;
     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
   }
 
   .img-1-wrap {
-    display: none;
+    display: block;
+    width: 46.31875vw;
+    height: 40.9713vw;
+  }
+
+  .img-1-bg {
+    position: relative;
+    width: 39.513vw;
+    height: 32.152vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629d28c2d6743_h-visual-2-bg%402x-min.png);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .img-1-bioma {
+    position: absolute;
+    left: auto;
+    top: 50px;
+    right: 38.1vw;
+    bottom: auto;
+    width: 31.2486vw;
+    height: 34.7903vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562928232d676e_h-visual-2-bioma-min.png);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .content-wrap {
+    width: 31.2486vw;
   }
 
   .div-block-6 {
-    margin-bottom: 2.9833vw;
-    font-size: 1.9646vw;
+    margin-bottom: 1.11108vw;
+    font-size: 1.0416vw;
+    line-height: 1.6666vw;
   }
 
   .div-block-8 {
-    font-family: "Inter", sans-serif;
-    margin-bottom: 5.2083vw;
-    text-align: center;
-    position: relative;
+    margin-bottom: 2.22225vw;
+    text-align: left;
     top: 73;
-  }
-
-  .h-3 {
-    line-height: 6.25vw;
+    line-height: 3.3333vw;
   }
 
   .img-1-wrap-tablet {
-    width: 78.125vw;
-    height: 59.7656vw;
-    margin-bottom: 1.5625vw;
+    display: none;
   }
 
   .div-block-7 {
-    width: 75.5208vw;
-    margin-bottom: 6.25vw;
+    width: 100%;
+    margin-bottom: 3.333vw;
   }
 
   .desc-2 {
-    font-size: 1.95313vw;
-    line-height: 3.125vw;
+    font-size: 1.0416vw;
+    line-height: 1.6666vw;
+    letter-spacing: -0.3px;
+    text-align: left;
   }
 
   .superscript {
@@ -2615,42 +2639,42 @@
 
   .btn-2-section-4 {
     margin-left: 0;
-    width: 25.5208vw;
-    height: 5.208333vw;
-    border-radius: 1.0416vw;
-    font-size: 1.95313vw;
-    line-height: 3.125vw;
+    width: 13.61066vw;
+    height: 2.7773vw;
+    border-radius: 0.5555vw;
+    font-size: 0.972225vw;
+    line-height: 1.6666vw;
   }
 
-  .btn-2-text {
-    margin-right: 1.0416vw;
-    font-size: 1.82291vw;
+  .btn-2-text-section-4 {
+    margin-right: 0.5555vw;
+    font-size: 0.952225vw;
     letter-spacing: 0.28px;
-    line-height: 3.125vw;
-    height: 3.125vw;
-    width: 17.8698vw;
+    line-height: 1.6666vw;
+    height: 1.6653vw;
+    width: 9.509vw;
   }
 
-  .btn-2-icon {
+  .btn-2-icon-section-4 {
     position: relative;
-    width: 2.3438vw;
-    height: 2.3438vw;
+    width: 1.2486vw;
+    height: 1.2486vw;
   }
 
   .h-bg-visual-2 {
-    left: 160.3px;
-    top: -40.5px;
+    left: 75.0272vw;
+    top: -0.95454vw;
     right: auto;
     bottom: auto;
-    width: 24.7396vw;
-    height: 19.4063vw;
+    width: 12.09375vw;
+    height: 9.4843vw;
   }
 
   .div-2-graphics {
-    top: -34.1666vw;
+    top: -42vw;
     z-index: -100;
-    height: 100vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562968672d6704_h-shape-bg-grey-2-tablet%402x.svg);
+    height: 66.6653vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562986732d6701_t-bg-shape-desktop-2%402x.svg);
   }
 }
 
