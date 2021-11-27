@@ -176,7 +176,6 @@
   }
   // 3er MAIN
   .three-main {
-    font-family: "Inter", sans-serif;
     margin-top: -14px;
     background-color: transparent;
   }
@@ -184,9 +183,6 @@
     display: flex;
     flex-direction: column-reverse;
     width: 87.5%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: none;
     background-color: transparent;
   }
   .c-panel {
@@ -195,7 +191,6 @@
     justify-content: space-between;
     width: 100%;
     height: 17.5vw;
-    // margin-bottom: 31.5px;
     margin-top: 11.75vw;
   }
   .toggle-wrap {
@@ -208,14 +203,6 @@
     margin-right: 2.0833vw;
     font-size: 1.5625vw;
     letter-spacing: 0.28px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .btn-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .toggle {
     position: relative;
@@ -225,72 +212,38 @@
   .active-bg {
     width: 5.9886vw;
     height: 3.125vw;
-    border-radius: 197px;
-    background-color: #009e82;
   }
   .inactive-bg {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    display: block;
     width: 5.9886vw;
     height: 3.125vw;
-    border-radius: 197px;
-    background-color: #bfbfbf;
   }
   .toggle-btn {
-    position: absolute;
     left: 2px;
     top: 1.5px;
     right: auto;
     bottom: auto;
     width: 2.6021vw;
     height: 2.6021vw;
-    border-radius: 50%;
-    background-color: #fff;
   }
   .hor-line-grey {
     display: none;
   }
 
   .img-panel {
-    position: relative;
     width: 78.125vw;
-    margin-right: auto;
-    margin-left: auto;
   }
   .visual-img-1 {
-    position: absolute;
     width: 78.125vw;
     height: 65.4926vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156292ba42d66dd_visual-widget-1-mobile%402x-min.png);
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    background-position: 0px 0px;
-    background-size: cover;
   }
   .visual-img-2 {
     position: relative;
     width: 78.125vw;
     height: 65.4926vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629de0d2d66c1_visual-widget-2-mobile%402x.png);
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    display: block;
-    background-position: 0px 0px;
-    background-size: cover;
   }
   .div-block-110 {
-    position: absolute;
     left: 62%;
     top: 65%;
-    right: 0%;
-    bottom: 30px;
     width: 27.9926vw;
     display: flex;
     flex-direction: column;
@@ -299,28 +252,16 @@
   .block-14 {
     width: 27.9926vw;
     height: 9.375vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562988e52d673d_tooltip-body%402x.png);
-    background-position: 0px 0px;
-    background-size: cover;
   }
   .block-15 {
-    margin-left: 180px;
-    display: flex;
     width: 2.9928vw;
     height: 2.9928vw;
     margin-top: 0.9115vw;
     margin-right: 4.1467vw;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 6px 18px 6px rgb(0 0 0 / 16%);
   }
   .block-16 {
     width: 0.9103vw;
     height: 0.9103vw;
-    border-radius: 50%;
-    background-color: #ec6b55;
   }
   .logo-panel {
     margin-left: 0;
@@ -335,23 +276,15 @@
   .logo-panel-1 {
     width: 23.2180769231vw;
     height: 4.1646vw;
-    position: absolute;
-    display: flex;
-    align-items: center;
   }
   .block-29 {
     width: 14.1917307692vw;
     height: 4.1646vw;
     margin-right: 1.0417vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
-    background-position: 0px 0px;
-    background-size: cover;
-    display: flex;
   }
   .text-block {
     width: 7.98673vw;
     height: 3.125vw;
-    color: #81848a;
     font-size: 1.5625vw;
     letter-spacing: 0.28px;
     line-height: 3.125vw;

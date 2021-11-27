@@ -1959,7 +1959,6 @@
   }
 
   .three-main {
-    font-family: "Inter", sans-serif;
     margin-top: -14px;
     background-color: transparent;
   }
@@ -1968,9 +1967,6 @@
     display: flex;
     flex-direction: column-reverse;
     width: 87.5%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: none;
     background-color: transparent;
   }
 
@@ -1994,15 +1990,6 @@
     margin-right: 2.0833vw;
     font-size: 1.5625vw;
     letter-spacing: 0.28px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .btn-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .toggle {
@@ -2014,33 +2001,20 @@
   .active-bg {
     width: 5.9886vw;
     height: 3.125vw;
-    border-radius: 197px;
-    background-color: #009e82;
   }
 
   .inactive-bg {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    display: block;
     width: 5.9886vw;
     height: 3.125vw;
-    border-radius: 197px;
-    background-color: #bfbfbf;
   }
 
   .toggle-btn {
-    position: absolute;
     left: 2px;
     top: 1.5px;
     right: auto;
     bottom: auto;
     width: 2.6021vw;
     height: 2.6021vw;
-    border-radius: 50%;
-    background-color: #fff;
   }
 
   .hor-line-grey {
@@ -2048,44 +2022,23 @@
   }
 
   .img-panel {
-    position: relative;
     width: 78.125vw;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .visual-img-1 {
-    position: absolute;
     width: 78.125vw;
     height: 65.4926vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156292ba42d66dd_visual-widget-1-mobile%402x-min.png);
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    background-position: 0px 0px;
-    background-size: cover;
   }
 
   .visual-img-2 {
     position: relative;
     width: 78.125vw;
     height: 65.4926vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629de0d2d66c1_visual-widget-2-mobile%402x.png);
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    display: block;
-    background-position: 0px 0px;
-    background-size: cover;
   }
 
   .div-block-110 {
-    position: absolute;
     left: 62%;
     top: 65%;
-    right: 0%;
-    bottom: 30px;
     width: 27.9926vw;
     display: flex;
     flex-direction: column;
@@ -2095,30 +2048,18 @@
   .block-14 {
     width: 27.9926vw;
     height: 9.375vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562988e52d673d_tooltip-body%402x.png);
-    background-position: 0px 0px;
-    background-size: cover;
   }
 
   .block-15 {
-    margin-left: 180px;
-    display: flex;
     width: 2.9928vw;
     height: 2.9928vw;
     margin-top: 0.9115vw;
     margin-right: 4.1467vw;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 6px 18px 6px rgba(0, 0, 0, 0.16);
   }
 
   .block-16 {
     width: 0.9103vw;
     height: 0.9103vw;
-    border-radius: 50%;
-    background-color: #ec6b55;
   }
 
   .logo-panel {
@@ -2135,25 +2076,17 @@
   .logo-panel-1 {
     width: 23.2180769231vw;
     height: 4.1646vw;
-    position: absolute;
-    display: flex;
-    align-items: center;
   }
 
   .block-29 {
     width: 14.1917307692vw;
     height: 4.1646vw;
     margin-right: 1.0417vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
-    background-position: 0px 0px;
-    background-size: cover;
-    display: flex;
   }
 
   .text-block {
     width: 7.98673vw;
     height: 3.125vw;
-    color: #81848a;
     font-size: 1.5625vw;
     letter-spacing: 0.28px;
     line-height: 3.125vw;
@@ -2273,26 +2206,32 @@
   }
 
   .here-section-2 {
-    margin-top: 13.5416vw;
-  }
-
-  .here-section-2-1 {
-    margin-bottom: 78px;
-    width: 78.125vw;
+    margin-top: 7.22225vw;
+    display: flex;
+    justify-content: space-between;
+    width: 83.332vw;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .here-section-2-1 {
+    margin-bottom: 0px;
+    width: 31.2486vw;
+    margin-left: 0px;
+    left: 0;
+  }
+
   .div-block-4 {
-    line-height: 3.0769vw;
+    line-height: 1.6666vw;
     width: 100%;
-    margin-bottom: 2.05134vw;
+    margin-bottom: 1.11108vw;
   }
 
   .subtitle-1 {
     color: #81848a;
-    font-size: 1.82229vw;
+    font-size: 0.972225vw;
     letter-spacing: 0.28px;
+    text-align: left;
   }
 
   .br-desactive {
@@ -2302,285 +2241,222 @@
   .div-block-3 {
     width: 100%;
     top: 73.12;
-    margin-bottom: 4.1025vw;
+    margin-bottom: 2.2222vw;
   }
 
   .h-3 {
-    font-size: 5.0781vw;
-    line-height: 6.25vw;
+    font-size: 2.7083vw;
+    line-height: 3.3333vw;
     letter-spacing: -0.78px;
+    text-align: left;
   }
 
   .text-span-2 {
-    color: #009e82;
-    line-height: 6.25vw;
-    font-weight: 500;
+    line-height: 3.3333vw;
   }
 
   .div-block-5 {
     width: 100%;
-    margin-bottom: 6.25vw;
+    margin-bottom: 3.3333vw;
     top: 73;
   }
 
   .desc-2-section-2 {
-    font-size: 1.95311vw;
-    line-height: 3.125vw;
+    font-size: 1.0416vw;
+    line-height: 1.6666vw;
     letter-spacing: -0.3px;
+    text-align: left;
   }
 
   .desc-2-section-2-1 {
-    margin-top: 2.0833vw;
-    font-size: 1.95311vw;
-    line-height: 3.125vw;
+    margin-top: 1.111vw;
+    font-size: 1.0416vw;
+    line-height: 1.6666vw;
     letter-spacing: -0.3px;
+    text-align: left;
   }
 
   .btn-section-2 {
     margin-left: 0;
-    width: 17.578vw;
-    height: 5.2073vw;
+    width: 9.3736vw;
+    height: 2.7773vw;
     padding: 0px;
-    border-radius: 1.0416vw;
+    border-radius: 0.55555vw;
     align-items: center;
   }
 
   .btn-2-text {
-    margin-right: 1, 41vw;
-    font-weight: 600;
-    font-size: 1.8229vw;
+    margin-right: 0.5555vw;
+    font-size: 0.97225vw;
     letter-spacing: 0.28px;
     text-decoration: none;
-    line-height: 3.125vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    line-height: 1.6666vw;
   }
 
   .btn-2-icon {
     position: relative;
-    width: 2.3442vw;
-    height: 2.3442vw;
+    width: 1.248666vw;
+    height: 1.248666vw;
   }
 
   .btn-2-arrow-hover {
-    width: 2.3442vw;
-    height: 2.3442vw;
+    width: 1.248666vw;
+    height: 1.248666vw;
   }
 
   .h-bg-visual-1 {
     top: -35px;
-    width: 35.025vw;
-    height: 37.6292vw;
+    width: 1.248666vw;
+    height: 1.248666vw;
   }
 
   .three-main {
-    background-color: #f8f8f8;
-    font-family: "Inter", sans-serif;
-    margin-top: 75px;
+    margin-top: 0px;
+    background-color: transparent;
+    width: 43.05466vw;
   }
 
   .widget-wrap {
     display: flex;
     flex-direction: column;
-    width: 87.5%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f8f8f8;
+    width: 43.05466vw;
+    background-color: transparent;
   }
 
   .c-panel {
     position: relative;
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 17.5vw;
-    margin-bottom: 31.5px;
-    margin-top: 8.75vw;
+    height: 2.2213vw;
+    margin-top: 0px;
+    margin-bottom: 3.3476vw;
   }
 
   .toggle-wrap {
-    width: 87.5vw;
-    height: 17.5vw;
+    width: 10.4135vw;
+    height: 2.2213vw;
     display: flex;
     justify-content: space-between;
   }
 
   .text-block-2 {
-    margin-right: 2.0833vw;
-    font-size: 1.5625vw;
+    margin-right: 1.111vw;
+    font-size: 0.8333vw;
     letter-spacing: 0.28px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .btn-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    line-height: 1.6666vw;
   }
 
   .toggle {
     position: relative;
-    width: 14.375vw;
-    height: 7.5vw;
+    width: 3.194vw;
+    height: 1.6653vw;
   }
 
   .active-bg {
-    width: 14.375vw;
-    height: 7.5vw;
-    border-radius: 197px;
-    background-color: #009e82;
+    width: 3.194vw;
+    height: 1.6653vw;
   }
 
   .inactive-bg {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    display: block;
-    width: 14.375vw;
-    height: 7.5vw;
-    border-radius: 197px;
-    background-color: #bfbfbf;
+    width: 3.194vw;
+    height: 1.6653vw;
   }
 
   .toggle-btn {
-    position: absolute;
-    left: 2.25px;
-    top: 2.25px;
+    left: 2px;
+    top: 1.5px;
     right: auto;
     bottom: auto;
-    width: 6.25vw;
-    height: 6.25vw;
-    border-radius: 50%;
-    background-color: #fff;
+    width: 1.388vw;
+    height: 1.388vw;
   }
 
   .hor-line-grey {
-    position: absolute;
-    left: 0%;
-    top: 17.5vw;
-    right: auto;
-    bottom: 0%;
-    display: block;
-    height: 1.125px;
-    width: 100%;
-    background-color: #81848a;
-    opacity: 0.16;
+    display: none;
   }
 
   .img-panel {
-    position: relative;
-    width: 87.7vw;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
   }
 
   .visual-img-1 {
-    position: absolute;
-    width: 87.5vw;
-    height: 75.83vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0131156292ba42d66dd_visual-widget-1-mobile%402x-min.png);
-    /* position: absolute; */
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    background-position: 0px 0px;
-    background-size: cover;
+    width: 42.05466vw;
+    height: 35.32vw;
   }
 
   .visual-img-2 {
     position: relative;
-    width: 87.5vw;
-    height: 73.06vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629de0d2d66c1_visual-widget-2-mobile%402x.png);
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    display: block;
-    background-position: 0px 0px;
-    background-size: cover;
+    width: 41.6653vw;
+    height: 34.7903vw;
   }
 
   .div-block-110 {
-    position: absolute;
-    left: 18%;
-    top: 55%;
-    right: 0%;
-    bottom: 30px;
-    width: 62.5vw;
+    left: 60.5%;
+    top: 62%;
+    width: 14.9296vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
 
   .block-14 {
-    width: 43.75vw;
-    height: 14.87vw;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562988e52d673d_tooltip-body%402x.png);
-    background-position: 0px 0px;
-    background-size: cover;
+    width: 14.9296vw;
+    height: 4.9986vw;
   }
 
   .block-15 {
-    margin-left: 180px;
-    display: flex;
-    width: 5vw;
-    height: 5vw;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 6px 18px 6px rgba(0, 0, 0, 0.16);
+    width: 1.5963vw;
+    height: 1.5963vw;
+    margin-top: 0.486vw;
+    margin-right: 2.0139vw;
   }
 
   .block-16 {
-    width: 1.58vw;
-    height: 1.58vw;
-    border-radius: 50%;
-    background-color: #ec6b55;
+    width: 0.4856vw;
+    height: 0.4856vw;
   }
 
   .logo-panel {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 7.5vw;
+    margin-left: 0;
+    margin-right: 0;
+    width: 12.3385vw;
+    height: 2.2213vw;
     display: flex;
     justify-content: center;
-    margin-top: 15.27vw;
+    margin-top: 0;
     align-items: center;
   }
 
   .logo-panel-1 {
-    width: 55.21%;
-    height: 10vw;
-    position: absolute;
-    display: flex;
-    align-items: center;
+    width: 12.3385vw;
+    height: 2.2213vw;
   }
 
   .block-29 {
-    width: 61.69%;
-    height: 10vw;
-    margin-right: 9px;
-    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
-    background-position: 0px 0px;
-    background-size: cover;
-    display: flex;
+    width: 7.569vw;
+    height: 2.2213vw;
+    margin-right: 1.0417vw;
   }
 
   .text-block {
-    width: 18.6754178811vw;
-    height: 7.5vw;
-    color: #81848a;
-    font-size: 3.75vw;
+    width: 4.2148vw;
+    height: 1.6653vw;
+    font-size: 0.8333vw;
     letter-spacing: 0.28px;
-    line-height: 7.5vw;
+    line-height: 1.66666vw;
+  }
+
+  .logo-panel-mobile {
+    display: none;
+  }
+
+  .div-1-graphics {
+    margin-top: 44.6066vw;
+    position: absolute;
+    width: 100%;
+    height: 68.9375vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629b6d82d6702_h-shape-bg-grey%402x.svg);
   }
 }
 
