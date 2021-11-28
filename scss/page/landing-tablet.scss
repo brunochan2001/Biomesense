@@ -380,10 +380,8 @@
   }
 /* 5to main */
 .h-section-5 {
-  font-family: "Inter", sans-serif;
   margin-top: 6.3475vw;
   padding-top: 16.0846vw;
-  position: relative;
   width: 100%;
 }
 .h-section-5-container {
@@ -397,7 +395,7 @@
   background-color: transparent;
   margin-right: auto;
 }
-.content-wrap {
+.content-wrap-1 {
   position: relative;
   width: auto;
 }
@@ -411,33 +409,20 @@
 .div-block-11 {
   width: 100%;
   margin-bottom: 4.1666vw;
-  text-align: left;
-  position: relative;
-  top: 73px;
   line-height: 3.125vw;
 }
 
 .div-block-10 {
   width: 75.5198vw;
-  text-align: left;
-  position: relative;
-  top: 73px;
   line-height: 3.125vw;
 }
 .div-block-14 {
   margin-top: 54px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .h-bg-visual-3 {
-  position: absolute;
   left: 35px;
   top: 38px;
-  right: auto;
-  bottom: auto;
   width: 25.9103vw;
   height: 18.3594vw;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629468f2d66ad_t-bg-visual-1%402x.svg);
@@ -446,31 +431,18 @@
   width: 100%;
   height: 46.35211vw;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562949b62d676f_h-visual-3%402x.svg);
-  position: relative;
-  top: 73px;
-  background-position: 0px 0px;
-  background-size: cover;
 }
 .div-block-15 {
   width: 74.8676vw;
   margin-top: 5.2082vw;
-  text-align: center;
-  position: relative;
   line-height: 4.1666vw;
-  top: 73px;
 }
 .text-1 {
   font-size: 3.125vw;
   line-height: 4.1666vw;
-  color: #81848a;
-  letter-spacing: -0.5px;
-  text-align: center;
 }
 .div-3-graphics {
-  left: auto;
   top:-112px;
-  right: auto;
-  overflow: visible;
   width: 100%;
   height: 122.1153vw;
   z-index: -101;
