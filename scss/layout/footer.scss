@@ -181,3 +181,8 @@
   background-position: 0px 0px;
   background-size: cover;
 }
+@media screen and (min-width: 480px) {
+  .container-footer {
+    margin-top: 100vw;
+  }
+}

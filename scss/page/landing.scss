@@ -1097,12 +1097,20 @@
   width: 100%;
 }
 .here-video-2-mobile {
+  display: block;
+}
+.here-video-mobile-1 {
   position: relative;
   left: 0%;
   top: 0%;
   bottom: auto;
   right: auto;
-  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.here-video-2-desktop {
+  display: none;
 }
 .h-section-7-container {
   position: relative;
@@ -1147,6 +1155,7 @@
   letter-spacing: -1.4px;
 }
 .div-block-20 {
+  font-family: "Inter", sans-serif;
   width: 100%;
   margin-bottom: 36px;
   text-align: center;
