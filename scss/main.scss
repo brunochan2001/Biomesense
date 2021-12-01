@@ -5,6 +5,11 @@
 @import "./layout/footer.scss";
 @import "./layout/header.scss";
 
-@import "./page/landing.scss";
-@import "./page/landing-tablet.scss";
-@import "./page/landing-desktop.scss";
+@import "./page/landing-mobile/article.scss";
+@import "./page/landing-mobile/complementary.scss";
+
+@import "./page/landing-tablet/article.scss";
+@import "./page/landing-tablet/complementary.scss";
+
+@import "./page/landing-desktop/article.scss";
+@import "./page/landing-desktop/complementary.scss";

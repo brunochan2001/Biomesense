@@ -3,7 +3,7 @@
 
   position: relative;
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: $font-gemeral;
 }
 .container-footer {
   width: 87.5vw;
@@ -40,7 +40,7 @@
   background-size: cover;
 }
 .copyright {
-  color: #81848a;
+  color: $color-lead;
   font-size: 3.75vw;
   letter-spacing: 0.24px;
   text-transform: uppercase;
@@ -70,70 +70,42 @@
   display: flex;
   flex-direction: column;
 }
-.link-footer-1 {
-  text-decoration: none;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
-  cursor: pointer;
-}
 .list-item {
   font-size: 4.3611vw;
   line-height: 6.8611vw;
   margin-bottom: 3.75vw;
-  color: #81848a;
+  color: $color-lead;
   letter-spacing: -0.3px;
   cursor: pointer;
-}
-.link-footer-2 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
-}
-.link-footer-3 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
 }
 .list-item-1 {
   margin-bottom: 0px;
   font-size: 4.3611vw;
   line-height: 6.8611vw;
-  color: #81848a;
+  color: $color-lead;
   letter-spacing: -0.3px;
   cursor: pointer;
 }
+.link-footer-1 {
+  @include list-footer;
+}
+.link-footer-2 {
+  @include list-footer;
+}
+.link-footer-3 {
+  @include list-footer;
+}
 .link-footer-4 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
+  @include list-footer;
 }
 .link-footer-5 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
+  @include list-footer;
 }
 .link-footer-6 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
+  @include list-footer;
 }
 .link-footer-7 {
-  text-decoration: none;
-  cursor: pointer;
-  max-width: 100%;
-  display: inline-block;
-  background-color: transparent;
+  @include list-footer;
 }
 
 /*  Divisiones */
@@ -151,7 +123,6 @@
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562912f22d6709_h-shape-bg-grey-mobile%402x.svg);
   background-position: 0px 0px;
   background-size: cover;
-  // background-color: aqua;
 }
 .div-2-graphics {
   position: absolute;
@@ -204,7 +175,7 @@
   .copyright {
     font-size: 1.5625vw;
     letter-spacing: 0.24px;
-    height:  3.125vw;
+    height: 3.125vw;
     line-height: 3.125vw;
   }
   .footer-navigation {
@@ -234,7 +205,7 @@
     line-height: 3.125vw;
   }
 }
-@media screen and (min-width: 990px){
+@media screen and (min-width: 990px) {
   .footer {
     padding-bottom: 0vw;
     height: 9.4166vw;
@@ -263,7 +234,7 @@
   .copyright {
     font-size: 0.83vw;
     letter-spacing: 0.24px;
-    height:  1.58vw;
+    height: 1.58vw;
     line-height: 1.66vw;
   }
   .footer-navigation {
@@ -292,5 +263,4 @@
     line-height: 1.666vw;
     margin-bottom: 0.833vw;
   }
-
 }
