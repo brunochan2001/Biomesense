@@ -407,3 +407,23 @@
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629dbc22d66ff_t-bg-shape-desktop-3%402x.svg);
   }
 }
+
+.translate{
+  animation-name: translate;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count:1s;
+  animation-play-state: running;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(60px);
+  }
+}
+@keyframes translate-1 {
+  0%{
+    transform: scale(.3);
+  }
+}

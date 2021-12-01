@@ -6,3 +6,22 @@
   font-size: 0.15rem;
   line-height: 0.24rem;
 }
+.translate{
+  animation-name: translate;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count:1s;
+  animation-play-state: running;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(60px);
+  }
+}
+@keyframes translate-1 {
+  0%{
+    transform: scale(.3);
+  }
+}
