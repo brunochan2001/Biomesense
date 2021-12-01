@@ -60,7 +60,7 @@
 .btn-section-2 {
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(202, 233, 226, 0.64);
+  background-color: rgba(202, 233, 226, 0.4);
   width: 42.1875vw;
   height: 12.5vw;
   padding: 0px;
@@ -69,6 +69,10 @@
   display: block;
   @include btn;
   align-items: center;
+  transition: background-color 0.1s;
+}
+.btn-section-2:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 .btn-2-text {
   margin-right: 2.5vw;
@@ -84,6 +88,10 @@
 }
 .btn-2-arrow-hover {
   @include btn-hover;
+  transition: background-image 1s;
+}
+.btn-2-arrow-hover:hover {
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562983af2d675d_btn-1-arrow-default%402x.svg);
 }
 .h-bg-visual-1 {
   position: absolute;
@@ -150,19 +158,14 @@
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: $color-green;
+  background-color: #bfbfbf;
+  z-index: 10;
 }
-.inactive-bg {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
-  display: block;
+.gren {
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: #bfbfbf;
+  background-color: red;
 }
 .toggle-btn {
   position: absolute;
@@ -367,6 +370,10 @@
   align-items: center;
   font-size: 16.875px;
   line-height: 27px;
+  transition: background-color 1s;
+}
+.btn-2-section-4:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 .btn-2-text-section-4 {
   @include btn-text;

@@ -129,14 +129,18 @@
     width: 3.194vw;
     height: 1.6653vw;
   }
-  .active-bg {
+  .active-bg{
     width: 3.194vw;
     height: 1.6653vw;
   }
-  .inactive-bg {
+  .gren{
     width: 3.194vw;
     height: 1.6653vw;
   }
+  // .inactive-bg {
+  //   width: 3.194vw;
+  //   height: 1.6653vw;
+  // }
   .toggle-btn {
     left: 2px;
     top: 1.5px;
@@ -408,12 +412,12 @@
   }
 }
 
-.translate{
+.translate {
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
   animation-delay: 0;
-  animation-iteration-count:1s;
+  animation-iteration-count: 1s;
   animation-play-state: running;
 }
 
@@ -423,7 +427,7 @@
   }
 }
 @keyframes translate-1 {
-  0%{
-    transform: scale(.3);
+  0% {
+    transform: scale(0.3);
   }
 }

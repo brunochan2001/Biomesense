@@ -1,19 +1,26 @@
-.translate{
-    animation-name: translate;
-    animation-timing-function: ease-out;
-    animation-duration: 1s;
-    animation-delay: 0;
-    animation-iteration-count:1s;
+.translate {
+  animation-name: translate;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: 1s;
+  animation-play-state: running;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(60px);
+  }
+}
+@keyframes translate-1 {
+  0% {
+    transform: scale(0.3);
+  }
+}
+@keyframes translate-2 {
+  0% {
+    transform: translateX(20px);
     animation-play-state: running;
+    animation-delay: 0;
   }
-  
-  @keyframes translate {
-    0% {
-      transform: translateY(60px);
-    }
-  }
-  @keyframes translate-1 {
-    0%{
-      transform: scale(.3);
-    }
-  }
+}

@@ -46,6 +46,13 @@
     transform: scale(0.3);
   }
 }
+@keyframes translate-2 {
+  0% {
+    transform: translateX(20px);
+    animation-play-state: running;
+    animation-delay: 0;
+  }
+}
 .footer {
   padding-bottom: 7.5vw;
   position: relative;
@@ -615,6 +622,11 @@
   width: 36.25vw;
   height: 12.5vw;
   margin-top: 40px;
+  transition: background-color 0.1s;
+}
+
+.block-3:hover {
+  background-color: rgba(0, 237, 194, 0.16);
 }
 
 .btn-1-text {
@@ -649,6 +661,11 @@
   background-size: cover;
   width: 20px;
   height: 20px;
+  transition: background-image 1s;
+}
+
+.btn-1-arrow-hover:hover {
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629b2492d6774_btn-1-arrow-hover%402x.svg);
 }
 
 /* 6to main */
@@ -751,6 +768,11 @@
   text-decoration: none;
   align-items: center;
   background-color: rgba(202, 233, 226, 0.4);
+  transition: background-color 1s;
+}
+
+.btn-2-section-6:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 
 .btn-2-text-section-6 {
@@ -1164,6 +1186,11 @@
   text-decoration: none;
   align-items: center;
   background-image: linear-gradient(180deg, rgba(0, 237, 194, 0.16), rgba(0, 237, 194, 0.16));
+  transition: background-color 1s;
+}
+
+.btn-2-section-7:hover {
+  background-color: rgba(0, 237, 194, 0.16);
 }
 
 .cta-widget-section-7 {
@@ -1344,7 +1371,7 @@
 .btn-section-2 {
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(202, 233, 226, 0.64);
+  background-color: rgba(202, 233, 226, 0.4);
   width: 42.1875vw;
   height: 12.5vw;
   padding: 0px;
@@ -1357,6 +1384,11 @@
   border-radius: 9px;
   text-decoration: none;
   align-items: center;
+  transition: background-color 0.1s;
+}
+
+.btn-section-2:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 
 .btn-2-text {
@@ -1388,6 +1420,11 @@
   background-size: cover;
   width: 20px;
   height: 20px;
+  transition: background-image 1s;
+}
+
+.btn-2-arrow-hover:hover {
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562983af2d675d_btn-1-arrow-default%402x.svg);
 }
 
 .h-bg-visual-1 {
@@ -1464,20 +1501,15 @@
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: #009c82;
+  background-color: #bfbfbf;
+  z-index: 10;
 }
 
-.inactive-bg {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
-  display: block;
+.gren {
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: #bfbfbf;
+  background-color: red;
 }
 
 .toggle-btn {
@@ -1722,6 +1754,11 @@
   align-items: center;
   font-size: 16.875px;
   line-height: 27px;
+  transition: background-color 1s;
+}
+
+.btn-2-section-4:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 
 .btn-2-text-section-4 {
@@ -2555,7 +2592,7 @@
     height: 3.125vw;
   }
 
-  .inactive-bg {
+  .gren {
     width: 5.9886vw;
     height: 3.125vw;
   }
@@ -3519,7 +3556,7 @@
     height: 1.6653vw;
   }
 
-  .inactive-bg {
+  .gren {
     width: 3.194vw;
     height: 1.6653vw;
   }

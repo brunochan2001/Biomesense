@@ -71,6 +71,10 @@
   width: 36.25vw;
   height: 12.5vw;
   margin-top: 40px;
+  transition: background-color 0.1s;
+}
+.block-3:hover {
+  background-color: rgba(0, 237, 194, 0.16);
 }
 .btn-1-text {
   @include btn-text;
@@ -89,6 +93,10 @@
 }
 .btn-1-arrow-hover {
   @include btn-hover;
+  transition: background-image 1s;
+}
+.btn-1-arrow-hover:hover {
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629b2492d6774_btn-1-arrow-hover%402x.svg);
 }
 /* 6to main */
 .h-section-6 {
@@ -161,6 +169,10 @@
   @include btn;
   align-items: center;
   background-color: rgba(202, 233, 226, 0.4);
+  transition: background-color 1s;
+}
+.btn-2-section-6:hover {
+  background-color: rgba(202, 233, 226, 0.64);
 }
 .btn-2-text-section-6 {
   margin-right: 2.5vw;
@@ -495,6 +507,10 @@
     rgba(0, 237, 194, 0.16),
     rgba(0, 237, 194, 0.16)
   );
+  transition: background-color 1s;
+}
+.btn-2-section-7:hover {
+  background-color: rgba(0, 237, 194, 0.16);
 }
 .cta-widget-section-7 {
   width: 100%;
