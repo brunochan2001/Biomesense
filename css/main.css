@@ -1613,11 +1613,33 @@
   z-index: 10;
 }
 
-.gren {
+.green {
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
   background-color: red;
+}
+
+.logo-desactive {
+  opacity: 0;
+}
+
+.logo-panel-2 {
+  font-size: 16.875px;
+  height: 36px;
+  line-height: 27px;
+  margin-right: 9px;
+}
+
+.text-block-1 {
+  color: #81848a;
+  font-size: 13.5px;
+  letter-spacing: 0.28px;
+  line-height: 27px;
+}
+
+.text-span-8 {
+  font-weight: 600;
 }
 
 .toggle-btn {

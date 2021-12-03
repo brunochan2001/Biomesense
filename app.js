@@ -83,17 +83,18 @@ window-addEventListener(`scroll`,function(){
 })
 
 // ONE CLICK
-const clickme = document.getElementById(`active`)
+const toggleclick = document.querySelector(`.toggle-btn`)
+const barra = document.querySelector(`.active-bg`)
+const img2= document.querySelector(`.visual-img-1`)
+const logopaneñ = document.querySelector(`.logo-panel-1`)
+const logopanel2 = document.querySelector(`.logo-panel-2`)
 
-
-clickme.addEventListener(`click`,(e)=>{
-    if(e.target.classList=="active-bg"){
-        e.target.classList.replace(`active-bg`,`gren`)
-    }
-    else
-        e.target.classList.replace(`gren`,`active-bg`)   
+toggleclick.addEventListener(`click`,()=>{
+    barra.classList.toggle(`green`)
+    img2.classList.toggle(`img-desactive`)
+    logopanel2.classList.toggle(`logo-desactive`)
+    logopaneñ.classList.toggle(`logo-desactive`)
 })
-
 
 // MENU DESPEGABLE
 const menuclick = document.querySelector(`.menu-open`)
