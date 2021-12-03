@@ -166,7 +166,7 @@
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: red;
+  background-color: #009e82;
 }
 
 .logo-desactive{
@@ -244,6 +244,19 @@ font-weight: 600;
   right: 0%;
   bottom: auto;
   display: block;
+  @include images;
+}
+.img-desactive{
+  opacity: 0;
+}
+.visual-img-3{
+  position:absolute;
+  width: 87.5vw;
+  height: 75.83vw;
+  top:-80;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562968e42d66b8_widget-bg-lines%402x.svg);
+  top: 0%;
+  right: 0%;
   @include images;
 }
 .div-block-110 {

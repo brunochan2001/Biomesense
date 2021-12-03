@@ -43,7 +43,7 @@
 }
 @keyframes translate-1 {
   0% {
-    transform: scale(0.3);
+    transform: scale(0.8);
   }
 }
 @keyframes translate-2 {
@@ -1617,7 +1617,7 @@
   width: 14.375vw;
   height: 7.5vw;
   border-radius: 197px;
-  background-color: red;
+  background-color: #009e82;
 }
 
 .logo-desactive {
@@ -1703,6 +1703,22 @@
   right: 0%;
   bottom: auto;
   display: block;
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.img-desactive {
+  opacity: 0;
+}
+
+.visual-img-3 {
+  position: absolute;
+  width: 87.5vw;
+  height: 75.83vw;
+  top: -80;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562968e42d66b8_widget-bg-lines%402x.svg);
+  top: 0%;
+  right: 0%;
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2789,6 +2805,11 @@
     height: 65.4926vw;
   }
 
+  .visual-img-3 {
+    width: 78.125vw;
+    height: 65.4926vw;
+  }
+
   .div-block-110 {
     left: 62%;
     top: 65%;
@@ -3751,6 +3772,11 @@
     position: relative;
     width: 41.6653vw;
     height: 34.7903vw;
+  }
+
+  .visual-img-3 {
+    width: 42.05466vw;
+    height: 35.32vw;
   }
 
   .div-block-110 {
