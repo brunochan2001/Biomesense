@@ -86,16 +86,23 @@ window-addEventListener(`scroll`,function(){
 const toggleclick = document.querySelector(`.toggle-btn`)
 const barra = document.querySelector(`.active-bg`)
 const img2= document.querySelector(`.visual-img-1`)
-const logopaneñ = document.querySelector(`.logo-panel-1`)
-const logopanel2 = document.querySelector(`.logo-panel-2`)
+const logopaneñ = document.querySelector(`.logo-panel-1-des`)
+const logopanel2 = document.querySelector(`.logo-panel-2-des`)
+const logopane123 = document.querySelector(`.logo-panel-1`)
+const cambios = document.querySelector(`.logo-panel-2`)
 
 toggleclick.addEventListener(`click`,()=>{
     barra.classList.toggle(`green`)
     img2.classList.toggle(`img-desactive`)
     logopanel2.classList.toggle(`logo-desactive`)
     logopaneñ.classList.toggle(`logo-desactive`)
+    logopane123.classList.toggle(`logo-desactive`)
+    cambios.classList.toggle(`logo-desactive`)
 })
 
+toggleclick.addEventListener(`click`,()=>{
+
+})
 // MENU DESPEGABLE
 const menuclick = document.querySelector(`.menu-open`)
 const menuactive = document.querySelector(`.nav-list`)

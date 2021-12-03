@@ -1631,9 +1631,16 @@
   margin-right: 9px;
 }
 
+.logo-panel-2-des {
+  font-size: 16.875px;
+  height: 36px;
+  line-height: 27px;
+  margin-right: 9px;
+}
+
 .text-block-1 {
   color: #81848a;
-  font-size: 13.5px;
+  font-size: 12.5px;
   letter-spacing: 0.28px;
   line-height: 27px;
 }
@@ -1763,6 +1770,14 @@
   align-items: center;
 }
 
+.logo-panel-1-des {
+  width: 55.21%;
+  height: 10vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
 .block-29 {
   width: 61.69%;
   height: 10vw;
@@ -1773,7 +1788,26 @@
   display: flex;
 }
 
+.block-29-des {
+  width: 61.69%;
+  height: 10vw;
+  margin-right: 9px;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  display: flex;
+}
+
 .text-block {
+  width: 18.6754178811vw;
+  height: 7.5vw;
+  color: #81848a;
+  font-size: 3.75vw;
+  letter-spacing: 0.28px;
+  line-height: 7.5vw;
+}
+
+.text-block-des {
   width: 18.6754178811vw;
   height: 7.5vw;
   color: #81848a;
@@ -3759,6 +3793,10 @@
   .logo-panel-1 {
     width: 12.3385vw;
     height: 2.2213vw;
+  }
+
+  .text-block-1 {
+    font-size: 0.9vw;
   }
 
   .block-29 {
