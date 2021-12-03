@@ -1661,6 +1661,18 @@
   background-color: #fff;
 }
 
+.toggle-btn-active {
+  position: absolute;
+  left: 27px;
+  top: 2.25px;
+  right: auto;
+  bottom: auto;
+  width: 6.25vw;
+  height: 6.25vw;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
 .hor-line-grey {
   position: absolute;
   left: 0%;
@@ -2786,6 +2798,14 @@
     height: 2.6021vw;
   }
 
+  .toggle-btn-active {
+    position: absolute;
+    left: 27px;
+    top: 2.25px;
+    width: 2.6021vw;
+    height: 2.6021vw;
+  }
+
   .hor-line-grey {
     display: none;
   }
@@ -3753,6 +3773,14 @@
     bottom: auto;
     width: 1.388vw;
     height: 1.388vw;
+  }
+
+  .toggle-btn-active {
+    position: absolute;
+    left: 22px;
+    top: 2.25px;
+    width: 1.38vw;
+    height: 1.38vw;
   }
 
   .hor-line-grey {

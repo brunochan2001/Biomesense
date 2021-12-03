@@ -91,6 +91,7 @@ const logopanel2 = document.querySelector(`.logo-panel-2-des`)
 const logopane123 = document.querySelector(`.logo-panel-1`)
 const cambios = document.querySelector(`.logo-panel-2`)
 const img3= document.querySelector(`.visual-img-2`)
+const toggleclick2 = document.querySelector(`.toggle-btn-active`)
 
 toggleclick.addEventListener(`click`,()=>{
     barra.classList.toggle(`green`)
@@ -100,7 +101,19 @@ toggleclick.addEventListener(`click`,()=>{
     logopane123.classList.toggle(`logo-desactive`)
     cambios.classList.toggle(`logo-desactive`)
     img3.classList.toggle(`translate`)
+    toggleclick.classList.toggle(`logo-desactive`)
+    toggleclick2.classList.remove(`logo-desactive`)
+
 })
+toggleclick2.addEventListener(`click`,()=>{
+    barra.classList.toggle(`green`)
+    toggleclick.classList.toggle(`logo-desactive`)
+    toggleclick2.classList.toggle(`logo-desactive`)
+    img2.classList.toggle(`img-desactive`)
+    img3.classList.remove(`translate`)
+
+})
+
 
 
 // MENU DESPEGABLE
