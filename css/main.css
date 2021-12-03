@@ -12,8 +12,8 @@
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
-  animation-delay: 0;
-  animation-iteration-count: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 11;
   animation-play-state: running;
 }
 
@@ -31,8 +31,8 @@
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
-  animation-delay: 0;
-  animation-iteration-count: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
   animation-play-state: running;
 }
 
@@ -50,7 +50,7 @@
   0% {
     transform: translateX(20px);
     animation-play-state: running;
-    animation-delay: 0;
+    animation-delay: 1s;
   }
 }
 .footer {
@@ -559,7 +559,7 @@
     background-color: transparent;
     cursor: pointer;
     display: inline-block;
-    background-color: none;
+    background-color: transparent;
     margin-top: 0px;
   }
 
@@ -568,7 +568,7 @@
     background-color: transparent;
     display: inline-block;
     cursor: pointer;
-    background-color: none;
+    background-color: transparent;
     margin-top: 0px;
   }
 
@@ -577,7 +577,7 @@
     background-color: transparent;
     display: inline-block;
     cursor: pointer;
-    background-color: none;
+    background-color: transparent;
     margin-top: 0px;
   }
 
@@ -833,7 +833,7 @@
 
 .text-span-6 {
   color: #009c82;
-  font-size: 27pxs;
+  font-size: 27px;
   line-height: 0.32px;
   text-align: center;
 }
@@ -1434,7 +1434,7 @@
   font-family: "Inter", sans-serif;
   width: 87.9%;
   position: relative;
-  top: 73.12;
+  top: 0;
   margin-bottom: 27px;
   text-align: center;
   margin-left: auto;
@@ -1452,7 +1452,7 @@
   width: 87.9%;
   margin-bottom: 36px;
   position: relative;
-  top: 73;
+  top: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1663,7 +1663,7 @@
 
 .toggle-btn-active {
   position: absolute;
-  left: 27px;
+  left: 7.5vw;
   top: 2.25px;
   right: auto;
   bottom: auto;
@@ -2669,7 +2669,7 @@
 
   .div-block-3 {
     width: 100%;
-    top: 73.12;
+    top: 0;
     margin-bottom: 4.1025vw;
   }
 
@@ -2688,7 +2688,7 @@
   .div-block-5 {
     width: 100%;
     margin-bottom: 6.25vw;
-    top: 73;
+    top: 0;
   }
 
   .desc-2-section-2 {
@@ -2800,8 +2800,8 @@
 
   .toggle-btn-active {
     position: absolute;
-    left: 27px;
-    top: 2.25px;
+    left: 3.07vw;
+    top: 0.288vw;
     width: 2.6021vw;
     height: 2.6021vw;
   }
@@ -2925,7 +2925,7 @@
     margin-bottom: 5.2083vw;
     text-align: center;
     position: relative;
-    top: 73;
+    top: 0;
   }
 
   .img-1-wrap-tablet {
@@ -3642,7 +3642,7 @@
 
   .div-block-3 {
     width: 100%;
-    top: 73.12;
+    top: 0vw;
     margin-bottom: 2.2222vw;
   }
 
@@ -3660,7 +3660,7 @@
   .div-block-5 {
     width: 100%;
     margin-bottom: 3.3333vw;
-    top: 73;
+    top: 0vw;
   }
 
   .desc-2-section-2 {
@@ -3777,7 +3777,7 @@
 
   .toggle-btn-active {
     position: absolute;
-    left: 22px;
+    left: 1.733vw;
     top: 2.25px;
     width: 1.38vw;
     height: 1.38vw;
@@ -3935,7 +3935,7 @@
   .div-block-8 {
     margin-bottom: 2.22225vw;
     text-align: left;
-    top: 73;
+    top: 0vw;
     line-height: 3.3333vw;
   }
 
@@ -4099,8 +4099,8 @@
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
-  animation-delay: 0;
-  animation-iteration-count: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-play-state: running;
 }
 

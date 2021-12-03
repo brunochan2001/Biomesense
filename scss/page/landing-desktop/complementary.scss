@@ -2,7 +2,6 @@
   // Segundo Main
   .here-section-2 {
     margin-top: 7.22225vw;
-    // Cuando añado display flex capaz cambia las versiones anteriores
     display: flex;
     justify-content: space-between;
     width: 83.332vw;
@@ -31,7 +30,7 @@
   }
   .div-block-3 {
     width: 100%;
-    top: 73.12;
+    top: 0vw;
     margin-bottom: 2.2222vw;
   }
   .h-3 {
@@ -46,7 +45,7 @@
   .div-block-5 {
     width: 100%;
     margin-bottom: 3.3333vw;
-    top: 73;
+    top: 0vw;
   }
   .desc-2-section-2 {
     font-size: 1.0416vw;
@@ -91,7 +90,6 @@
     width: 18.67966vw;
     height: 20.069vw;
   }
-  // 3er MAIN
   .three-main {
     margin-top: 0px;
     background-color: transparent;
@@ -129,18 +127,15 @@
     width: 3.194vw;
     height: 1.6653vw;
   }
-  .active-bg{
+  .active-bg {
     width: 3.194vw;
     height: 1.6653vw;
   }
-  .gren{
+  .gren {
     width: 3.194vw;
     height: 1.6653vw;
   }
-  // .inactive-bg {
-  //   width: 3.194vw;
-  //   height: 1.6653vw;
-  // }
+
   .toggle-btn {
     left: 2px;
     top: 1.5px;
@@ -149,16 +144,15 @@
     width: 1.388vw;
     height: 1.388vw;
   }
-  .toggle-btn-active{
-    position:absolute;
-    left: 22px;
+  .toggle-btn-active {
+    position: absolute;
+    left: 1.733vw;
     top: 2.25px;
 
     width: 1.38vw;
     height: 1.38vw;
- 
   }
-  
+
   .hor-line-grey {
     display: none;
   }
@@ -175,7 +169,7 @@
     width: 41.6653vw;
     height: 34.7903vw;
   }
-  .visual-img-3{
+  .visual-img-3 {
     width: 42.05466vw;
     height: 35.32vw;
   }
@@ -215,7 +209,7 @@
     width: 12.3385vw;
     height: 2.2213vw;
   }
-  .text-block-1{
+  .text-block-1 {
     font-size: 0.9vw;
   }
   .block-29 {
@@ -250,7 +244,7 @@
   .four-main-container {
     width: 83.332vw;
     background-color: transparent;
-    // Por display flex capaz tengamos errores en las versiones anteriores
+
     display: flex;
     justify-content: space-between;
   }
@@ -290,7 +284,7 @@
   .div-block-8 {
     margin-bottom: 2.22225vw;
     text-align: left;
-    top: 73;
+    top: 0vw;
     line-height: 3.3333vw;
   }
   .img-1-wrap-tablet {
@@ -433,8 +427,8 @@
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
-  animation-delay: 0;
-  animation-iteration-count: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
   animation-play-state: running;
 }
 

@@ -25,7 +25,7 @@
   font-family: $font-gemeral;
   width: 87.9%;
   position: relative;
-  top: 73.12;
+  top: 0;
   margin-bottom: 27px;
   text-align: center;
   margin-left: auto;
@@ -41,7 +41,7 @@
   width: 87.9%;
   margin-bottom: 36px;
   position: relative;
-  top: 73;
+  top: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,29 +169,29 @@
   background-color: #009e82;
 }
 
-.logo-desactive{
+.logo-desactive {
   opacity: 0;
 }
-.logo-panel-2{
-font-size: 16.875px;
-height: 36px;
-line-height: 27px;
-margin-right: 9px;
-}
-.logo-panel-2-des{
+.logo-panel-2 {
   font-size: 16.875px;
-height: 36px;
-line-height: 27px;
-margin-right: 9px;
+  height: 36px;
+  line-height: 27px;
+  margin-right: 9px;
 }
-.text-block-1{
+.logo-panel-2-des {
+  font-size: 16.875px;
+  height: 36px;
+  line-height: 27px;
+  margin-right: 9px;
+}
+.text-block-1 {
   color: #81848a;
   font-size: 12.5px;
   letter-spacing: 0.28px;
   line-height: 27px;
 }
-.text-span-8{
-font-weight: 600;
+.text-span-8 {
+  font-weight: 600;
 }
 // HASTA AQUI
 .toggle-btn {
@@ -205,9 +205,9 @@ font-weight: 600;
   border-radius: 50%;
   background-color: #fff;
 }
-.toggle-btn-active{
+.toggle-btn-active {
   position: absolute;
-  left: 27px;
+  left: 7.5vw;
   top: 2.25px;
   right: auto;
   bottom: auto;
@@ -257,14 +257,14 @@ font-weight: 600;
   display: block;
   @include images;
 }
-.img-desactive{
+.img-desactive {
   opacity: 0;
 }
-.visual-img-3{
-  position:absolute;
+.visual-img-3 {
+  position: absolute;
   width: 87.5vw;
   height: 75.83vw;
-  top:-80;
+  top: -80;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562968e42d66b8_widget-bg-lines%402x.svg);
   top: 0%;
   right: 0%;
@@ -325,7 +325,7 @@ font-weight: 600;
   display: flex;
   align-items: center;
 }
-.logo-panel-1-des{
+.logo-panel-1-des {
   width: 55.21%;
   height: 10vw;
   position: absolute;
@@ -340,7 +340,7 @@ font-weight: 600;
   @include images;
   display: flex;
 }
-.block-29-des{
+.block-29-des {
   width: 61.69%;
   height: 10vw;
   margin-right: 9px;
@@ -356,7 +356,7 @@ font-weight: 600;
   letter-spacing: 0.28px;
   line-height: 7.5vw;
 }
-.text-block-des{
+.text-block-des {
   width: 18.6754178811vw;
   height: 7.5vw;
   color: $color-lead;
