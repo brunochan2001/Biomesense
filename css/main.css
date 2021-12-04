@@ -1621,6 +1621,10 @@
 }
 
 .logo-desactive {
+  opacity: 0;
+}
+
+.toggle-desactive {
   display: none;
 }
 
