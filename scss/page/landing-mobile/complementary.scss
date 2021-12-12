@@ -169,10 +169,11 @@
   background-color: #009e82;
 }
 
-.logo-desactive , .logo-desactive-1 {
+.logo-desactive,
+.logo-desactive-1 {
   opacity: 0;
 }
-.toggle-desactive{
+.toggle-desactive {
   display: none;
 }
 .logo-panel-2 {
@@ -267,7 +268,7 @@
   position: absolute;
   width: 87.5vw;
   height: 75.83vw;
-  top: -80;
+  top: -80vw;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562968e42d66b8_widget-bg-lines%402x.svg);
   top: 0%;
   right: 0%;

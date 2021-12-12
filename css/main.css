@@ -67,6 +67,7 @@
 @keyframes translate {
   0% {
     transform: translateY(60px);
+    animation-delay: 0s;
   }
 }
 @keyframes translate-1 {
@@ -177,6 +178,10 @@
   color: #81848a;
   letter-spacing: -0.3px;
   cursor: pointer;
+}
+
+.list-item:hover, .list-item-1:hover {
+  color: #33b29b;
 }
 
 .link-footer-1 {
@@ -627,6 +632,10 @@
     margin-left: 5.2083vw;
     font-size: 1.953124vw;
     line-height: 3.1249vw;
+  }
+
+  .nav-list-item:hover {
+    color: #33b29b;
   }
 
   .menu-open {
@@ -1759,7 +1768,7 @@
   position: absolute;
   width: 87.5vw;
   height: 75.83vw;
-  top: -80;
+  top: -80vw;
   background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562968e42d66b8_widget-bg-lines%402x.svg);
   top: 0%;
   right: 0%;
@@ -4133,25 +4142,6 @@
     height: 60.1153vw;
     z-index: -101;
     background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629dbc22d66ff_t-bg-shape-desktop-3%402x.svg);
-  }
-}
-.translate {
-  animation-name: translate;
-  animation-timing-function: ease-out;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-play-state: running;
-}
-
-@keyframes translate {
-  0% {
-    transform: translateY(60px);
-  }
-}
-@keyframes translate-1 {
-  0% {
-    transform: scale(0.3);
   }
 }
 

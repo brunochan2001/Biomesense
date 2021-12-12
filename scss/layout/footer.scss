@@ -86,6 +86,10 @@
   letter-spacing: -0.3px;
   cursor: pointer;
 }
+.list-item:hover,
+.list-item-1:hover {
+  color: #33b29b;
+}
 .link-footer-1 {
   @include list-footer;
 }
