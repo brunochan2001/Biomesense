@@ -1620,7 +1620,7 @@
   background-color: #009e82;
 }
 
-.logo-desactive {
+.logo-desactive, .logo-desactive-1 {
   opacity: 0;
 }
 
@@ -2890,6 +2890,13 @@
     line-height: 3.125vw;
   }
 
+  .text-block-1 {
+    margin-top: 11px;
+    font-size: 1.5625vw;
+    letter-spacing: 0.28px;
+    line-height: 3.125vw;
+  }
+
   .logo-panel-mobile {
     display: none;
   }
@@ -3855,6 +3862,7 @@
 
   .text-block-1 {
     font-size: 0.9vw;
+    margin-top: 0px;
   }
 
   .block-29 {
