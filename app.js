@@ -89,11 +89,11 @@ window -
     }
   });
 
-// ONE CLICK
+// ONE CLICK - Mobile
 const toggleclick = document.querySelector(`.toggle-btn`);
 const barra = document.querySelector(`.active-bg`);
 const img2 = document.querySelector(`.visual-img-1`);
-const logopaneñ = document.querySelector(`.logo-panel-1-des`);
+const logopanel1 = document.querySelector(`.logo-panel-1-des`);
 const logopanel2 = document.querySelector(`.logo-panel-2-des`);
 const logopane123 = document.querySelector(`.logo-panel-1`);
 const cambios = document.querySelector(`.logo-panel-2`);
@@ -104,7 +104,7 @@ toggleclick.addEventListener(`click`, () => {
   barra.classList.toggle(`green`);
   img2.classList.toggle(`img-desactive`);
   logopanel2.classList.toggle(`logo-desactive`);
-  logopaneñ.classList.toggle(`logo-desactive`);
+  logopanel1.classList.toggle(`logo-desactive`);
   logopane123.classList.toggle(`logo-desactive`);
   cambios.classList.toggle(`logo-desactive`);
   img3.classList.toggle(`translate`);
@@ -113,6 +113,8 @@ toggleclick.addEventListener(`click`, () => {
 });
 toggleclick2.addEventListener(`click`, () => {
   barra.classList.toggle(`green`);
+  logopanel1.classList.remove(`logo-desactive`);
+  logopanel2.classList.add(`logo-desactive`);
   toggleclick.classList.toggle(`toggle-desactive`);
   toggleclick2.classList.toggle(`toggle-desactive`);
   img2.classList.toggle(`img-desactive`);
