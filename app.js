@@ -104,13 +104,15 @@ const toggleclick2 = document.querySelector(`.toggle-btn-active`);
 toggleclick.addEventListener(`click`, () => {
   barra.classList.toggle(`green`);
   img2.classList.toggle(`img-desactive`);
+  img3.classList.add(`translate-4`);
+  img2.classList.remove(`translate-4`);
   logopanel2.classList.toggle(`logo-desactive`);
   logopanel1.classList.toggle(`logo-desactive`);
   logopane123.classList.toggle(`logo-desactive-1`);
   cambios.classList.toggle(`logo-desactive-1`);
-  img3.classList.toggle(`translate`);
   toggleclick.classList.toggle(`toggle-desactive`);
   toggleclick2.classList.remove(`toggle-desactive`);
+  img3.classList.remove(`translate-5`);
 });
 toggleclick2.addEventListener(`click`, () => {
   barra.classList.toggle(`green`);
@@ -119,7 +121,9 @@ toggleclick2.addEventListener(`click`, () => {
   toggleclick.classList.toggle(`toggle-desactive`);
   toggleclick2.classList.toggle(`toggle-desactive`);
   img2.classList.toggle(`img-desactive`);
-  img3.classList.remove(`translate`);
+  img3.classList.remove(`translate-4`);
+  img2.classList.add(`translate-4`);
+  img3.classList.add(`translate-5`);
   logopane123.classList.toggle(`logo-desactive-1`);
   cambios.classList.toggle(`logo-desactive-1`);
 });

@@ -2,9 +2,36 @@
   animation-name: translate;
   animation-timing-function: ease-out;
   animation-duration: 1s;
-  animation-delay: 1s;
+  animation-delay: 0s;
   animation-iteration-count: 1;
   animation-play-state: running;
+}
+
+.translate-4{
+  animation-name: translate-4;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+@keyframes translate-4{
+  0%{
+    transform: scale(0.5);
+  }
+}
+.translate-5{
+  animation-name: translate-5;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+@keyframes translate-5{
+  0%{
+    transform: scale(0.5);
+  }
 }
 
 @keyframes translate {
