@@ -397,14 +397,14 @@
   margin-bottom: 9px;
   text-align: center;
   position: relative;
-  top: 73;
+  top:0;
 }
 .div-block-8 {
   font-family: $font-gemeral;
   margin-bottom: 45px;
   text-align: center;
   position: relative;
-  top: 73;
+  top: 0;
 }
 .text-span-48 {
   color: $color-green;
@@ -425,7 +425,7 @@
   width: 100%;
   margin-bottom: 36px;
   position: relative;
-  top: 73;
+  top: 0;
 }
 .desc-2 {
   @include desc-2;
