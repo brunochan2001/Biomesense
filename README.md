@@ -8,4 +8,4 @@ Este proyecto tiene la copia de la pagina principal [Biomesense](https://www.Bio
 
 ## Descripcion
 
-Muestro mis habilidades con SCSS y HTML
+Muestro mis habilidades con SCSS , HTML y Jvascript
