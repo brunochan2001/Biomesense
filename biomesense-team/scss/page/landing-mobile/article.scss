@@ -1,0 +1,73 @@
+// 1er main
+.here-section-1 {
+  margin-top: 17.5vw;
+}
+.here-desktop {
+  display: none;
+}
+.here-tablet {
+  display: none;
+}
+.here-mobile {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.container-section-1 {
+  position: absolute;
+  width: 100%;
+}
+.content-section-1 {
+  display: block;
+  width: 88vw;
+  margin-top: 69.375vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-block-37 {
+  margin-bottom: 7.5vw;
+}
+.margin {
+  margin-bottom: 5vw;
+}
+.h-2 {
+  @include h-2(12.18vw, center, 15vw);
+}
+.text-span-12 {
+  color: $color-green;
+}
+.desc-1 {
+  @include desc-1(4.68vw, center, 7.5vw);
+}
+.fa-chevron-down {
+  display: none;
+}
+.dark-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 22, 20, 0.6) 0%,
+    rgba(6, 22, 20, 0.594812) 7.66%,
+    rgba(6, 22, 20, 0.578694) 15.32%,
+    rgba(6, 22, 20, 0.551004) 22.99%,
+    rgba(6, 22, 20, 0.511553) 30.65%,
+    rgba(6, 22, 20, 0.460935) 38.31%,
+    rgba(6, 22, 20, 0.40087) 45.97%,
+    rgba(6, 22, 20, 0.334385) 53.63%,
+    rgba(6, 22, 20, 0.265615) 61.3%,
+    rgba(6, 22, 20, 0.19913) 68.96%,
+    rgba(6, 22, 20, 0.139065) 76.62%,
+    rgba(6, 22, 20, 0.0884468) 84.28%,
+    rgba(6, 22, 20, 0.0489959) 91.94%,
+    rgba(6, 22, 20, 0.021306) 99.6%,
+    rgba(6, 22, 20, 0.00518832) 107.27%,
+    rgba(6, 22, 20, 0) 114.93%
+  );
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+}

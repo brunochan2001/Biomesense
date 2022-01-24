@@ -1,0 +1,21 @@
+.translate {
+    animation-name: translate;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay:0s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+  }
+  
+  @keyframes translate {
+    0% {
+      transform: translateY(90px);
+
+    }
+  }
+
+  @keyframes translate-1 {
+    0% {
+      transform: scale(0.8);
+    }
+  }

@@ -1,0 +1,351 @@
+// FOOTER
+.footer {
+    padding-bottom: 7.5vw;
+    position: relative;
+    width: 100%;
+    font-family: $font-gemeral;
+  }
+  .container-footer {
+    width: 87.5vw;
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+    margin-top: -8vw;
+  }
+  .div-block-35 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 87.5vw;
+  
+    margin-bottom: 2.7777vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-logo {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo-1 {
+    margin-bottom: 2.5vw;
+    width: 34.0638vw;
+    height: 10vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .copyright {
+    color: $color-lead;
+    font-size: 3.75vw;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    height: 27px;
+    line-height: 7.5vw;
+  }
+  .footer-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-list-wrap {
+    margin-bottom: 15vw;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 6.8611vw;
+  }
+  .nav-title {
+    margin-bottom: 5vw;
+    color: #1a1b1c;
+    font-size: 3.75vw;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+  }
+  .list-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-item {
+    font-size: 4.3611vw;
+    line-height: 6.8611vw;
+    margin-bottom: 3.75vw;
+    color: $color-lead;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+  }
+  .list-item:hover{
+    color: #33b29b;
+  }
+  .list-item-1 {
+    margin-bottom: 0px;
+    font-size: 4.3611vw;
+    line-height: 6.8611vw;
+    color: $color-lead;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+  }
+  .list-item-1:hover{
+    color: #33b29b
+  }
+  .link-footer-1 {
+    @include list-footer;
+  }
+  .link-footer-2 {
+    @include list-footer;
+  }
+  .link-footer-3 {
+    @include list-footer;
+  }
+  .link-footer-4 {
+    @include list-footer;
+  }
+  .link-footer-5 {
+    @include list-footer;
+  }
+  .link-footer-6 {
+    @include list-footer;
+  }
+  .link-footer-7 {
+    @include list-footer;
+  }
+  
+  /*  Divisiones */
+  .div-1-graphics {
+    margin-top: 0px;
+    position: absolute;
+    left: auto;
+    top: 255vw;
+    right: auto;
+    bottom: auto;
+    z-index: -99;
+    overflow: visible;
+    width: 100vw;
+    height: 388vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562912f22d6709_h-shape-bg-grey-mobile%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .div-2-graphics {
+    position: absolute;
+    left: auto;
+    top: 1375vw;
+    right: auto;
+    bottom: auto;
+    z-index: -100;
+    width: 100%;
+    height: 299.4vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629f69b2d670c_h-shape-bg-grey-2-mobile%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .div-3-graphics {
+    position: absolute;
+    left: auto;
+    top: 1995vw;
+    right: auto;
+    overflow: visible;
+    width: 100%;
+    height: 1035px;
+    z-index: -101;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562902882d670a_h-shape-bg-grey-3-mobile%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  @media screen and (min-width: 480px) {
+    .footer {
+      padding-bottom: 0vw;
+    }
+    .container-footer {
+      width: 78.125vw;
+      margin-top: 65.0333vw;
+      margin-bottom: 8.5vw;
+    }
+    .div-block-35 {
+      margin-bottom: 0px;
+      flex-direction: row-reverse;
+    }
+    .footer-logo {
+      margin-top: 0px;
+    }
+    .footer-logo-1 {
+      width: 14.1917vw;
+      height: 4.1646vw;
+    }
+    .copyright {
+      font-size: 1.5625vw;
+      letter-spacing: 0.24px;
+      height: 3.125vw;
+      line-height: 3.125vw;
+    }
+    .footer-navigation {
+      flex-direction: row;
+      height: 17.707vw;
+    }
+    .nav-list-wrap {
+      margin-bottom: 0vw;
+      margin-left: 6.25vw;
+      text-align: left;
+      line-height: 3.125vw;
+      height: 100%;
+    }
+    .nav-title {
+      margin-bottom: 2.0832vw;
+      font-size: 1.5625vw;
+      line-height: 3.125vw;
+    }
+    .list-item {
+      font-size: 1.953vw;
+      line-height: 3.125vw;
+      margin-bottom: 1.5625vw;
+    }
+    .list-item-1 {
+      margin-bottom: 0px;
+      font-size: 1.953vw;
+      line-height: 3.125vw;
+    }
+    .div-1-graphics {
+      margin-top: 0px;
+      position: absolute;
+      left: auto;
+      top: 175vw;
+      right: auto;
+      bottom: auto;
+      z-index: -99;
+height: 124vw;
+      width: 100vw;
+      background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562981232d671b_t-shape-bg-grey-1-tablet%402x.svg);
+  }
+  .div-2-graphics {
+    position: absolute;
+    left: auto;
+    top: 615vw;
+    right: auto;
+    bottom: auto;
+    z-index: -100;
+    width: 100%;
+    height: 150vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629d1bf2d6719_t-shape-bg-grey-2-tablet%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .div-3-graphics {
+    position: absolute;
+    left: auto;
+    top: 868vw;
+    right: auto;
+    overflow: visible;
+    width: 100%;
+    height: 116vw;
+    z-index: -101;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156295c6c2d6714_t-shape-bg-grey-3-tablet%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  
+  }
+}
+  @media screen and (min-width: 990px) {
+    .footer {
+      padding-bottom: 0vw;
+      height: 9.4166vw;
+      margin-top: 30px;
+      margin-bottom: 50px;
+ 
+      
+      
+    }
+    .container-footer {
+        margin-top:0vw;
+      margin-bottom: 0vw;
+    }
+    .div-block-35 {
+      margin-bottom: 0px;
+      height: 9.4166vw;
+      width: 83.332vw;
+    }
+    .footer-logo {
+      margin-top: 0px;
+      justify-content: space-between;
+      text-align: left;
+    }
+    .footer-logo-1 {
+      width: 7.56vw;
+      height: 2.221vw;
+    }
+    .copyright {
+      font-size: 0.83vw;
+      letter-spacing: 0.24px;
+      height: 1.58vw;
+      line-height: 1.66vw;
+    }
+    .footer-navigation {
+      flex-direction: row;
+      height: 9.4166vw;
+    }
+    .nav-list-wrap {
+      margin-bottom: 0vw;
+      margin-left: 6.25vw;
+      text-align: left;
+      line-height: 3.125vw;
+      height: 100%;
+    }
+    .nav-title {
+      margin-bottom: 1.111vw;
+      font-size: 0.833vw;
+      line-height: 1.6666vw;
+    }
+    .list-item {
+      font-size: 1.04vw;
+      line-height: 1.666vw;
+      margin-bottom: 0.833vw;
+    }
+    .list-item-1 {
+      font-size: 1.04vw;
+      line-height: 1.666vw;
+      margin-bottom: 0.833vw;
+    }
+    .div-1-graphics {
+      margin-top: 0px;
+      position: absolute;
+      left: auto;
+      top: 40vw;
+      right: auto;
+      bottom: auto;
+      z-index: -99;
+height: 66.25vw;
+      width: 100vw;
+      background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629459d2d6712_t-shape-bg-grey-1%402x.svg);
+  }
+  .div-2-graphics {
+    position: absolute;
+    left: auto;
+    top: 72vw;
+    right: auto;
+    bottom: auto;
+    z-index: -100;
+    width: 100%;
+    height: 66.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562986732d6701_t-bg-shape-desktop-2%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .div-3-graphics {
+    position: absolute;
+    left: auto;
+    top: 262vw;
+    right: auto;
+    overflow: visible;
+    width: 100%;
+    height: 100.5vw;
+    z-index: -101;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629dbc22d66ff_t-bg-shape-desktop-3%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  
+  }
+  }
+

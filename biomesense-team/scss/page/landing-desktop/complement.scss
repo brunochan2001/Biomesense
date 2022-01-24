@@ -1,0 +1,236 @@
+@media screen and (min-width: 990px) {
+  .here-section-2 {
+    margin-top: 51vw;
+  }
+  .div-block-31 {
+    margin-bottom: 2.5vw;
+  }
+  .here-container-2 {
+    width: 83.3vw;
+  }
+  .h-3 {
+    @include h-3(2.7vw, center, 3.3vw);
+  }
+  .text-span-10 {
+    color: $color-green-2;
+  }
+  .image-personal-1 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg));
+  }
+  .image-personal-2 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg));
+  }
+  .image-personal-3 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg));
+  }
+  .image-personal-4 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg));
+  }
+  .image-personal-5 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG));
+  }
+  .image-personal-6 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg));
+    background-position: 0px 50%;
+  }
+  .image-personal-7 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .posicion {
+    @include posicion(0.9vw, 1.6vw, 0.2vw);
+  }
+  .name {
+    @include name(1.3vw, 1.9vw, 0.8vw);
+  }
+  .btn-1 {
+    @include btn-1(10.5vw, 2.7vw, 0.5vw);
+  }
+  .btn-1-text {
+    @include btn-text(0.9vw, 1.6vw, 0.5vw);
+  }
+
+  .btn-1-icon {
+    @include btn-icon(1.2vw, 1.2vw);
+  }
+
+  .team-perfiles {
+    width: 18vw;
+    margin-bottom: 0vw;
+  }
+  .team-column-1 {
+    width: 62.51vw;
+    margin-bottom: 5.32vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .margin-2 {
+    margin-bottom: 0px;
+  }
+  .team-column-2 {
+    width: 62.51vw;
+    margin-bottom: 7.7vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+  // Variables
+  .margin-name {
+    margin-bottom: 0.8vw;
+  }
+  .margin-name-1 {
+    margin-bottom: 0.9vw;
+  }
+  // 3er section
+  .here-section-3 {
+    position: absolute;
+    margin-top: 164vw;
+    width: 100%;
+  }
+  .here-container-3 {
+    width: 83.332vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .here-container-text {
+    width: 76.7vw;
+  }
+  .text-span-11 {
+    color: $color-green-2;
+  }
+  .here-container-text {
+    width: 61.8vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+  }
+  .div-block-33 {
+    margin-bottom: 2.2vw;
+  }
+  .team-perfiles-margin {
+    margin-right: 4.1vw;
+  }
+  .desc-2 {
+    @include desc-2(1.04vw, center, 1.66vw);
+  }
+  .image-personal-8 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg));
+  }
+  .image-personal-9 {
+    @include img-personal-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg));
+  }
+  .scientific-advisory-fotos {
+    display: flex;
+    justify-content: center;
+  }
+  .section3-posicion-absoluta {
+    @include position-absolute(auto, -14vw, auto, auto, 100%, 60vw);
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629420a2d671e_c-shape-bg-grey-1%402x.svg);
+    margin-bottom: 23.3px;
+    margin-top: 26.6px;
+    padding-top: 140px;
+    z-index: -99;
+  }
+  .absolute-visual-4 {
+    display: none;
+  }
+  // 4to main
+  .h-section-4 {
+    width: 100%;
+    margin-bottom: 17.5vw;
+    position: absolute;
+    margin-top: 218vw;
+  }
+  .here-video-2 {
+    position: absolute;
+    width: 100%;
+  }
+  .here-video-2-mobile {
+    display: none;
+  }
+
+  .here-video-2-tablet {
+    display: none;
+  }
+
+  .here-video-2-desktop {
+    display: block;
+    width: 91.1448%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .here-video-2-desktop-1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .h-section-7-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 83.332vw;
+    padding-top: 9vw;
+  }
+  .div-block-36 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .div-block-21 {
+    margin-bottom: 3.3vw;
+  }
+  .h-2 {
+    @include h-2(5vw, left, 5vw);
+  }
+
+  .div-block-20 {
+    margin-bottom: 3.3vw;
+  }
+  .desc-1 {
+    @include desc-1(1.04vw, left, 1.66vw);
+  }
+  .btn-2 {
+    @include btn-2(8.05vw, 2.7vw, 0.55vw);
+    margin-left: 0;
+  }
+  .btn-1-text-2 {
+    @include btn-text-2(0.9vw, 1.6vw, 0.55vw);
+  }
+  .cta-widget-section-7 {
+    width: 41.665vw;
+    height: 34vw;
+    position: relative;
+    margin-bottom: 0vw;
+  }
+  .content-h-section-7 {
+    width: 34.63vw;
+  }
+
+  .div-block-22 {
+    @include position-absolute(11.6vw, 11.5vw, auto, auto, 21.9vw, 13.06vw);
+  }
+  .div-block-23 {
+    @include position-absolute(12.5vw, -1.5vw, auto, auto, 15.9vw, 14.1vw);
+  }
+  .div-block-24 {
+    @include position-absolute(auto, 3.8vw, 0.25vw, auto, 13.2vw, 11.8vw);
+  }
+  .div-block-25 {
+    @include position-absolute(auto, auto, 1.9vw, 2.9vw, 15.03vw, 14.4vw);
+  }
+  .div-block-26 {
+    @include position-absolute(auto, auto, 13.3vw, -2.3vw, 13.2vw, 11.6vw);
+  }
+  .div-block-27 {
+    @include position-absolute(0.25vw, auto, auto, 1.9vw, 15.3vw, 15.6vw);
+  }
+  .div-block-28 {
+    @include position-absolute(0.5vw, 3.02vw, auto, auto, 13.4vw, 12.9vw);
+  }
+}

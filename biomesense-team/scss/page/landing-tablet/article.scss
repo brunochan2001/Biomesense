@@ -1,0 +1,61 @@
+@media screen and (min-width: 480px) {
+  // 1er main
+  .here-section-1 {
+    margin-top: 9.375vw;
+  }
+  .here-desktop {
+    display: none;
+  }
+  .here-mobile {
+    display: none;
+  }
+  .here-tablet {
+    display: block;
+    position: relative;
+    width: 92.14%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .here-tablet-1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .container-section-1 {
+    position: absolute;
+    width: 100%;
+  }
+  .content-section-1 {
+    display: block;
+    width: 78.125vw;
+    margin-top: 64.06vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-block-37 {
+    margin-bottom: 5.2vw;
+  }
+  .div-block-38 {
+    width: 54.68vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .margin {
+    margin-bottom: 2.08vw;
+  }
+  .h-2 {
+    @include h-2(9.375vw, center, 9.375vw);
+  }
+  .text-span-12 {
+    color: $color-green;
+  }
+  .desc-1 {
+    @include desc-1(1.95vw, center, 3.125vw);
+  }
+  .fa-chevron-down {
+    display: none;
+  }
+  .dark-overlay {
+    left: 4vw;
+  }
+}

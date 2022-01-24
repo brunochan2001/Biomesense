@@ -1,0 +1,206 @@
+// 2do main
+.here-section-2 {
+  position: absolute;
+  margin-top: 322vw;
+  width: 100%;
+}
+.div-block-31 {
+  margin-bottom: 15vw;
+}
+.here-container-2 {
+  display: block;
+  width: 87.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h-3 {
+  @include h-3(7.5vw, center, 10vw);
+}
+.text-span-10 {
+  color: $color-green-2;
+}
+.image-personal-1 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg));
+}
+.image-personal-2 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg));
+}
+.image-personal-3 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg));
+}
+.image-personal-4 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg));
+}
+.image-personal-5 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG));
+}
+.image-personal-6 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg));
+}
+.image-personal-7 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg));
+}
+.btn-1 {
+  @include btn-1(47.5vw, 12.5vw, 2.5vw);
+}
+.posicion {
+  @include posicion(4.375vw, 7.5vw, 1.25vw);
+}
+.name {
+  @include name(6.25vw, 8.75vw, 3.75vw);
+}
+.btn-1-text {
+  @include btn-text(4.375vw, 7.5vw, 2.5vw);
+}
+
+.btn-1-icon {
+  @include btn-icon(5.626vw, 5.626vw);
+}
+
+.team-perfiles {
+  margin-bottom: 15vw;
+}
+
+.team-column-1 {
+  margin-bottom: 34.72vw;
+}
+.margin-2 {
+  margin-bottom: 0px;
+}
+.team-column-2 {
+  margin-bottom: 40.27vw;
+}
+
+// 3er section
+.here-section-3 {
+  position: absolute;
+  margin-top: 1458vw;
+  width: 100%;
+}
+.here-container-3 {
+  width: 87.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-span-11 {
+  color: $color-green-2;
+}
+.here-container-text {
+  margin-bottom: 20vw;
+}
+.div-block-33 {
+  margin-bottom: 7.5vw;
+}
+.desc-2 {
+  @include desc-2(4.68vw, center, 7.5vw);
+}
+.image-personal-8 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg));
+}
+.image-personal-9 {
+  @include img-personal-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg));
+}
+.section3-posicion-absoluta {
+  @include position-absolute(auto, -52vw, auto, auto, 100%, 299vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629d61c2d671d_c-shape-bg-grey-1-mobile%402x.svg);
+  z-index: -99;
+}
+.absolute-visual-4 {
+  @include position-absolute(auto, -12vw, auto, auto, 24.6vw, 24.6vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629064f2d66d6_c-bg-visual-4%402x.svg);
+}
+// 4to main
+.h-section-4 {
+  width: 100%;
+  margin-bottom: 17.5vw;
+  position: absolute;
+  margin-top: 1910vw;
+}
+.here-video-2 {
+  position: absolute;
+  width: 100%;
+}
+.here-video-2-mobile {
+  display: block;
+  width: 100%;
+}
+.here-video-2-mobile-1 {
+  position: relative;
+  z-index: -1;
+  height: 262.0051vw;
+}
+.here-video-2-tablet {
+  display: none;
+}
+.here-video-2-desktop {
+  display: none;
+}
+.h-section-7-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 87.5%;
+  padding-top: 16.6vw;
+}
+.div-block-36 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.div-block-21 {
+  margin-bottom: 7.5vw;
+}
+.h-2 {
+  @include h-2(12.8vw, center, 15vw);
+}
+.text-span-7 {
+  color: #00edc2;
+}
+.div-block-20 {
+  margin-bottom: 15vw;
+}
+.desc-1 {
+  @include desc-1(4.6vw, center, 7.5vw);
+}
+.btn-2 {
+  @include btn-2(36.52vw, 12.5vw, 2.5vw);
+}
+.cta-widget-section-7 {
+  width: 100%;
+  height: 78.8888vw;
+  position: relative;
+  margin-bottom: 17.5vw;
+}
+.btn-1-text-2 {
+  @include btn-text-2(4.375vw, 7.5vw, 2.5vw);
+}
+.div-block-22 {
+  @include position-absolute(24.3vw, 26.5vw, auto, auto, 45vw, 27.1vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562902bb2d66d7_1%402x.svg);
+}
+.div-block-23 {
+  @include position-absolute(25.3vw, 0vw, auto, auto, 32.5vw, 28.8vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629e1aa2d66c6_2%402x.svg);
+}
+.div-block-24 {
+  @include position-absolute(auto, 11.5vw, 1.25vw, auto, 27.7vw, 24.3vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562936ba2d66dc_3%402x.svg);
+}
+.div-block-25 {
+  @include position-absolute(auto, auto, 5.2vw, 11.5vw, 31.2vw, 30vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629b4e92d66ca_4%402x.svg);
+}
+.div-block-26 {
+  @include position-absolute(auto, auto, 28.3vw, 1.8vw, 27.5vw, 24.02vw);
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629a5bb2d66e4_5%402x.svg);
+}
+.div-block-27 {
+  @include position-absolute(1.2vw, auto, auto, 10vw, 31.9vw, 31.9vw);
+
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562966cc2d66ce_6%402x.svg);
+}
+.div-block-28 {
+  @include position-absolute(2.5vw, 9vw, auto, auto, 27.5vw, 26.8vw);
+
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562983762d66c9_7%402x.svg);
+}

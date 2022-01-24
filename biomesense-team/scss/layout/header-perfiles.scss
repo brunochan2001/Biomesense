@@ -1,0 +1,90 @@
+// Para los perfiles desactivo el header
+.navigation-desactive {
+  display: none;
+}
+.navigation-1 {
+  display: flex;
+  width: 100%;
+  height: 17.5vw;
+  top: 0;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  background-color: #fff;
+}
+.container-header-1 {
+  width: 87.5vw;
+  height: 57.14%;
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+.nav-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo-1 {
+  cursor: pointer;
+  width: 39%;
+  height: 100%;
+  outline: 0;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+}
+.menu-close {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .navigation-1 {
+    height: 9.375vw;
+  }
+  .container-header-1 {
+    width: 78.125vw;
+    height: 9.375vw;
+  }
+  .nav-logo-1 {
+    width: 14.1vw;
+    height: 4.15vw;
+  }
+  .text-block-9 {
+    font-size: 1.8vw;
+    margin-right: 1.04vw;
+    color: rgb(129, 132, 138);
+  }
+  .icon-close-default {
+    width: 3.125vw;
+    height: 3.125vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629f1332d66af_pop-up-close%402x.svg);
+  }
+}
+@media screen and (min-width: 990px) {
+  .navigation-1 {
+    height: 4.99vw;
+  }
+  .container-header-1 {
+    width: 83.332vw;
+    height: 4.99vw;
+  }
+  .nav-logo-1 {
+    width: 7.569vw;
+    height: 2.22vw;
+  }
+  .text-block-9 {
+    font-size: 0.9vw;
+    margin-right: 0.55vw;
+  }
+  .icon-close-default {
+    width: 1.66vw;
+    height: 1.66vw;
+  }
+}

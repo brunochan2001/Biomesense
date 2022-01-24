@@ -1,0 +1,40 @@
+// Menu despegable
+.translate {
+  animation-name: translate;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(60px);
+  }
+}
+
+// Flecha
+.translate-1 {
+  animation-name: translate-1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+@keyframes translate-1 {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    color: rgb(22, 86, 36);
+  }
+}
+
+// Transiciones del video
+@keyframes translate-2 {
+  0% {
+    transform: scale(0.8);
+  }
+}

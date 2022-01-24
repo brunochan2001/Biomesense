@@ -1,0 +1,264 @@
+// Body
+.body-active {
+  display: block;
+}
+.body-desactive {
+  display: none;
+}
+// descripciones
+.jack-description {
+  @include description-mobile;
+}
+.kevin-description {
+  @include description-mobile;
+}
+.dylan-description {
+  @include description-mobile;
+}
+.baeza-description {
+  @include description-mobile;
+}
+.boddu-description {
+  @include description-mobile;
+}
+.madison-description {
+  @include description-mobile;
+}
+.haldar-description {
+  @include description-mobile;
+}
+.rob-description {
+  @include description-mobile;
+}
+.charles-description {
+  @include description-mobile;
+}
+// OCULTAR DESCRIPCION
+.ocultar-description {
+  @include description-ocultar;
+}
+// IMAGENES
+.image-personal-10 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg));
+}
+.image-personal-11 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg));
+}
+.image-personal-12 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg));
+}
+.image-personal-13 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg));
+}
+.image-personal-14 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG));
+}
+.image-personal-15 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg));
+}
+.image-personal-16 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg));
+}
+.image-personal-17 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg));
+}
+.image-personal-18 {
+  @include img-perfil-mobile(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg));
+}
+// Letras
+.info {
+  @include info(87.5vw, 7.5vw, 11.25vw);
+}
+.posicion-1 {
+  @include posicion-description(4.3vw, 7.5vw);
+}
+.name-description {
+  @include name-description(7.5vw, 10vw, 1.2vw);
+  margin-bottom: 6.2vw;
+}
+.bio {
+  @include bio(87.5vw, 50vw);
+}
+.desc-3 {
+  @include desc-3(6.23vw, 8.7vw);
+}
+
+@media screen and (min-width: 480px) {
+  .jack-description {
+    top: 9.375vw;
+  }
+  .kevin-description {
+    top: 9.375vw;
+  }
+  .dylan-description {
+    top: 9.375vw;
+  }
+  .baeza-description {
+    top: 9.375vw;
+  }
+  .boddu-description {
+    top: 9.375vw;
+  }
+  .madison-description {
+    top: 9.375vw;
+  }
+  .haldar-description {
+    top: 9.375vw;
+  }
+  .rob-description {
+    top: 9.375vw;
+  }
+  .charles-description {
+    top: 9.375vw;
+  }
+  .image-personal-10 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg));
+  }
+  .image-personal-11 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg));
+  }
+  .image-personal-12 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg));
+  }
+  .image-personal-13 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg));
+  }
+  .image-personal-14 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG));
+  }
+  .image-personal-15 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg));
+  }
+  .image-personal-16 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg));
+  }
+  .image-personal-17 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg));
+  }
+  .image-personal-18 {
+    @include img-perfil-tablet(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg));
+  }
+  .info {
+    @include info(78.125vw, 6vw, 9.375vw);
+  }
+  .posicion-1 {
+    @include posicion-description(1.8vw, 3.125vw);
+  }
+  .name-description {
+    @include name-description(3.125vw, 4.16vw, 0.51vw);
+    margin-bottom: 3.125vw;
+  }
+  .bio {
+    @include bio(78.125vw, 23vw);
+  }
+  .desc-3 {
+    @include desc-3(3.125vw, 4.16vw);
+  }
+  .div-absolute {
+    @include position-absolute(56vw, 52vw, auto, auto, 26.69vw, 26.56vw);
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562907942d672d_pop-up-bg-visual-1%402x.svg);
+    z-index: -99;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .jack-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .kevin-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .dylan-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .baeza-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .boddu-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .madison-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .haldar-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .rob-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+  .charles-description {
+    top: 4.8vw;
+    overflow-y: hidden;
+  }
+  .image-personal-10 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg));
+  }
+  .image-personal-11 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg));
+  }
+  .image-personal-12 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg));
+  }
+  .image-personal-13 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg));
+  }
+  .image-personal-14 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG));
+  }
+  .image-personal-15 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg));
+  }
+  .image-personal-16 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg));
+  }
+  .image-personal-17 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg));
+  }
+  .image-personal-18 {
+    @include img-perfil-desktop(url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg));
+  }
+  .flex-direction {
+    display: flex;
+    flex-direction: row;
+  }
+  .info {
+    @include info(31.24vw, 0vw, 46vw);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 7.91vw;
+    top: 3.58vw;
+  }
+  .posicion-1 {
+    @include posicion-description(0.9vw, 1.6vw);
+    order: 2;
+    margin-top: 1.66vw;
+  }
+  .name-description {
+    @include name-description(1.66vw, 2.2vw, 0.275vw);
+    margin-bottom: 0vw;
+    order: 3;
+  }
+  .bio {
+    @include bio(41.66vw, 0vw);
+    position: absolute;
+    right: 8.33vw;
+    top: 3.66vw;
+  }
+  .desc-3 {
+    @include desc-3(1.66vw, 2.2vw);
+  }
+  .div-absolute {
+    @include position-absolute(21.66vw, -2.5vw, auto, auto, 14.24vw, 14.16vw);
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562907942d672d_pop-up-bg-visual-1%402x.svg);
+    z-index: -99;
+  }
+}

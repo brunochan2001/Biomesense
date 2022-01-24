@@ -1,0 +1,64 @@
+@media screen and (min-width: 990px) {
+  // 1er main
+  .here-section-1 {
+    margin-top: 4.9986vw;
+  }
+  .here-mobile {
+    display: none;
+  }
+  .here-tablet {
+    display: none;
+  }
+  .here-desktop {
+    display: block;
+    position: relative;
+    width: 91.14%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .here-desktop-1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .container-section-1 {
+    position: absolute;
+    width: 100%;
+  }
+  .content-section-1 {
+    display: block;
+    width: 41.66vw;
+    margin-top: 4.36vw;
+    margin-right: 8.33vw;
+  }
+  .div-block-37 {
+    margin-bottom: 2.22vw;
+  }
+  .div-block-38 {
+    width: 40.97vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .margin {
+    margin-bottom: 1.1vw;
+  }
+  .h-2 {
+    @include h-2(5vw, left, 5vw);
+  }
+  .text-span-12 {
+    color: $color-green;
+  }
+  .desc-1 {
+    @include desc-1(1.04vw, left, 1.66vw);
+  }
+  .fa-chevron-down {
+    display: block;
+    @include position-absolute(50vw, auto, auto, auto, 90px, 100%);
+    color: #333;
+  }
+  .dark-overlay {
+    width: 78vw;
+    height: 48.828vw;
+    left: 9vw;
+  }
+}

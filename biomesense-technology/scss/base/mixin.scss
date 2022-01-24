@@ -1,0 +1,81 @@
+// MOBILE
+@mixin btn {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+@mixin btn-text {
+  font-family: $font-gemeral;
+  color: #00edc2;
+  letter-spacing: 0.28px;
+  font-weight: 600;
+}
+
+@mixin btn-hover {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  display: block;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+@mixin subtitle-1 {
+  position: relative;
+  top: auto;
+  font-size: 3.75vw;
+  color: $color-lead;
+  letter-spacing: 0.28px;
+}
+
+@mixin desc-2 {
+  text-align: center;
+  color: $color-lead;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 7.5vw;
+  font-size: 4.6666vw;
+}
+
+@mixin list-footer {
+  text-decoration: none;
+  cursor: pointer;
+  max-width: 100%;
+  display: inline-block;
+  background-color: transparent;
+}
+
+@mixin images {
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+@mixin titles-wrap {
+  position: absolute;
+  font-weight: 600;
+  font-size: 2.65625vw;
+  letter-spacing: -0.18px;
+  line-height: 3.4375vw;
+}
+
+@mixin h3-text {
+  position: relative;
+  top: auto;
+  display: block;
+  width: auto;
+  font-size: 7.5vw;
+  line-height: 10vw;
+  text-align: center;
+  left: auto;
+  color: #1a1b1c;
+  font-weight: 500;
+  letter-spacing: -0.78px;
+}

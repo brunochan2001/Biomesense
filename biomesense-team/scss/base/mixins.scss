@@ -1,0 +1,254 @@
+// Letras
+@mixin h-2($font, $align, $height) {
+  font-weight: 500;
+  text-align: $align;
+  letter-spacing: -1.4px;
+  font-size: $font;
+  line-height: $height;
+  color: #f6fcfb;
+}
+@mixin h-3($font, $align, $height) {
+  font-weight: 500;
+  text-align: $align;
+  letter-spacing: -0.78px;
+  font-size: $font;
+  line-height: $height;
+  color: #1a1b1c;
+}
+@mixin desc-1($font, $align, $height) {
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: $align;
+  line-height: $height;
+  font-size: $font;
+  color: #cae9e2;
+}
+@mixin desc-2($font, $align, $height) {
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: $align;
+  line-height: $height;
+  font-size: $font;
+  color: #81848a;
+}
+@mixin desc-3($font, $height) {
+  color: #81848a;
+  font-size: $font;
+  line-height: $height;
+  letter-spacing: -0.48px;
+}
+@mixin posicion($font, $heigth, $margin) {
+  color: #81848a;
+  font-size: $font;
+  letter-spacing: 0.3px;
+  line-height: $heigth;
+  margin-bottom: $margin;
+  text-transform: uppercase;
+  text-align: center;
+}
+@mixin posicion-description($font, $heigth) {
+  font-size: $font;
+  line-height: $heigth;
+  color: #81848a;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+@mixin name($font, $heigth, $margin) {
+  color: #152536;
+  font-size: $font;
+  line-height: $heigth;
+  font-weight: 500;
+  margin-bottom: $margin;
+  text-align: center;
+}
+@mixin name-description($font, $height, $margin) {
+  color: #152536;
+  font-size: $font;
+  line-height: $height;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  margin-top: $margin;
+}
+@mixin nav-list-wrap($font, $margin) {
+  margin-bottom: $margin;
+  font-size: $font;
+  color: #1a1b1c;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+@mixin list-item($font, $height, $margin) {
+  font-size: $font;
+  line-height: $height;
+  margin-bottom: $margin;
+  color: $color-lead;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+  &:hover {
+    color: #33b29b;
+  }
+}
+// Imagenes
+@mixin img-personal-mobile($url) {
+  width: 100%;
+  height: 87.5vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+@mixin img-personal-tablet($url) {
+  width: 22.6vw;
+  height: 22.6vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 3.125vw;
+}
+@mixin img-personal-desktop($url) {
+  width: 18.05vw;
+  height: 18.05vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 1.6vw;
+}
+
+// TAMAÑO BOTON
+@mixin btn-1($width, $heigth, $border) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $width;
+  height: $heigth;
+  background-color: rgba(202, 233, 266, 0.4);
+  border-radius: $border;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover {
+    background-color: rgba(202, 233, 266, 0.64);
+    cursor: pointer;
+  }
+}
+@mixin btn-2($width, $heigth, $border) {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  width: $width;
+  height: $heigth;
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 237, 194, 0.16),
+    rgba(0, 237, 194, 0.16)
+  );
+  border-radius: $border;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover {
+    background-color: rgba(202, 233, 266, 0.64);
+    cursor: pointer;
+  }
+}
+// TEXTO BOTON
+@mixin btn-text($font, $heigth, $margin) {
+  color: #009e82;
+  font-size: $font;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  line-height: $heigth;
+  margin-right: $margin;
+  text-transform: uppercase;
+}
+@mixin btn-text-2($font, $heigth, $margin) {
+  color: #00edc2;
+  font-size: $font;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  line-height: $heigth;
+  margin-right: $margin;
+  text-transform: uppercase;
+}
+// ICONO BOTON
+@mixin btn-icon($width, $heigth) {
+  width: $width;
+  height: $heigth;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629992d2d6756_btn-2-arrow-default%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  &:hover {
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+  }
+}
+// FOOTER
+@mixin list-footer {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+// Perfiles
+@mixin description-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+@mixin description-ocultar {
+  left: 0;
+}
+@mixin info($width, $margin-top, $margin-bottom) {
+  width: $width;
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+}
+@mixin bio($width, $padding) {
+  width: $width;
+  padding-bottom: $padding;
+}
+// Perfiles-Imagenes
+@mixin img-perfil-mobile($url) {
+  width: 100%;
+  height: 87.5vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+@mixin img-perfil-tablet($url) {
+  width: 58.5vw;
+  height: 58.5vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+@mixin img-perfil-desktop($url) {
+  width: 31.24vw;
+  height: 31.24vw;
+  background-image: $url;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+// Posiciones Absolutas
+@mixin position-absolute($left, $top, $right, $bottom, $width, $height) {
+  position: absolute;
+  left: $left;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  width: $width;
+  height: $height;
+  background-position: 0px 0px;
+  background-size: cover;
+}

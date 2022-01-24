@@ -1,0 +1,518 @@
+@media screen and (min-width: 480px) {
+  // SEGUNDO MAIN
+  .here-section-2 {
+    position: relative;
+    margin-top: 15.022vw;
+
+  }
+  .container-here-2 {
+    width: 83.332vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subtitle-1 {
+    @include subtitle-1;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 1.8229vw;
+  }
+  .wrap-content-1 {
+    display: none;
+  }
+  .t-graphic {
+    display: none;
+  }
+  .h-3 {
+    font-size: 5.0781vw;
+    line-height: 6.25vw;
+    letter-spacing: -0.78px;
+    text-align: center;
+    margin-bottom: 4.16vw;
+  }
+  .text-span-15 {
+    color: #009e82;
+  }
+  .desc-2 {
+    font-size: 1.953vw;
+    font-weight: 300;
+    line-height: 3.125vw;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #81848a;
+  }
+  .h-4 {
+    color: #009e82;
+    text-align: center;
+    font-size: 2.604vw;
+    line-height: 3.644vw;
+    letter-spacing: -0.4px;
+    margin-bottom: 1.5625vw;
+    font-weight: 500;
+  }
+  .div-block-48-mobile {
+    margin-top: 9.375vw;
+    margin-bottom: 0vw;
+    width: 69.53vw;
+    height: 47.11vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6116e2c3e7b15beccadb76cb_t_visual_no_txt_mobile%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-block-26 {
+    position: absolute;
+    left: 36.82%;
+    top: 36vw;
+    right: auto;
+    bottom: 120vw;
+    color: #009e82;
+    font-size: 1.95vw;
+    line-height: 3.125vw;
+    text-align: center;
+    width: 26.03vw;
+  }
+  .t-bg-visual-1{
+    width: 25.9vw;
+    height: 18.25vw;
+    left: 32vw;
+    top: -5vw;
+
+  }
+  .text-block-27 {
+    position: absolute;
+    left: 13%;
+    top: auto;
+    bottom: 45.0%;
+    right: auto;
+    color: #009e82;
+    font-size: 1.95vw;
+    line-height: 3.125vw;
+    text-align: center;
+    width: 26.03vw;
+    
+  }
+  .text-block-28 {
+    position: absolute;
+    left: 59.11%;
+    bottom: 45%;
+    top: auto;
+    right: auto;
+    color: #009e82;
+    font-size: 1.95vw;
+    line-height: 3.125vw;
+    text-align: center;
+    width: 26.03vw;
+  }
+  .t-list-wrap-1-mobile {
+    margin-top: 10.41vw;
+    display: block;
+  }
+  .content-1-mobile {
+    margin-bottom: 7.29vw;
+    width: 37.5vw;
+  }
+  // ORDENAR{
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-block-45 {
+    order: 1;
+  }
+  .div-block-46 {
+    order: 2;
+  }
+  .div-block-48-mobile {
+    order: 4;
+  }
+  .div-block-47 {
+    order: 3;
+    width: 75.08vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0vw;
+  }
+  .div-block-92 {
+    display: flex;
+    justify-content: space-between;
+    width: 78.125vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrap-content-1-mobile {
+    width: 37.5vw;
+    margin: 0 auto 10vw;
+  }
+  .icon-checkbox {
+    position: static;
+    width: 4.16vw;
+    height: 4.16vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562915df2d66b0_icon-checkbox%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.125vw;
+  }
+  // 3ER MAIN
+  .here-section-3 {
+    margin-top: 27.88vw;
+  }
+  .t-section-3 {
+    width: 100%;
+  }
+  .here-container-3 {
+    width: 78.125vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-block-100 {
+    width: 78.07vw;
+  }
+  .h-e-top {
+    margin-bottom: 0px;
+  }
+  .section-img-2 {
+    position: relative;
+    width: 69.92vw;
+    height: 51.03vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629b2c72d6724_biom-visual-mobile%402x.png);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-left: 2.6vw;
+    margin-top: 9.375vw;
+    margin-bottom: 0px;
+  }
+  .t-bg-visual-2{
+    width: 27.5vw;
+    height: 16.9vw;
+    left: 7vw;
+    top: 323vw;
+  }
+  .text-span-16 {
+    color: #009e82;
+  }
+  .text-block-3 {
+    display: none;
+  }
+  .text-block-3-mobile {
+    font-size: 3.125vw;
+    font-weight: 500;
+    margin-bottom: 4.166vw;
+    letter-spacing: -0.48px;
+    line-height: 4.166vw;
+    text-align: center;
+    width: 73.352vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .desc-2-width {
+    width: 71.352vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-block-3 {
+    font-size: 3.125vw;
+    font-weight: 500;
+    margin-bottom: 4.166vw;
+    letter-spacing: -0.48px;
+    line-height: 4.166vw;
+    text-align: center;
+    width: 78.125vw;
+  }
+  .icon-1 {
+    position: relative;
+    width: 13.53vw;
+    height: 13.53vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562910342d66f3_t-icon-2%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.125vw;
+  }
+  .icon-2 {
+    position: relative;
+    width: 13.53vw;
+    height: 13.53vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156294cea2d6742_t-icon-1%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.125vw;
+  }
+  .icon-3 {
+    position: relative;
+    width: 13.53vw;
+    height: 13.53vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629f7482d6745_t-icon-3%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.125vw;
+  }
+  .here-list-2 {
+    margin-top: 12.4vw;
+  }
+  .content-list-2 {
+    margin-bottom: 8.33vw;
+  }
+  .div-block-52 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .title-wrap {
+    margin-bottom: 6.25vw;
+  }
+  .div-block-51 {
+    margin-bottom: 5.76vw;
+  }
+  .div-block-53 {
+    width: 51.03vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+// 4TO MOVIL
+.here-section-4{
+  width: 100%;
+  margin-top: 43.56vw;
+}
+.here-container-4{
+width: 78.07vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-block-59-version-mobile{
+  display: none;
+}
+.div-block-59{
+  width: 78.07vw;
+  height: 42.44vw;
+  margin-top: 8.33vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629a8982d6707_lab%402x-min.png);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.icon-4{
+  position: relative;
+  width: 13.53vw;
+    height: 13.53vw;
+    margin-bottom: 3.125vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629c30d2d6700_t-icon-4%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+
+}
+.icon-5{
+  position: relative;
+  width: 13.53vw;
+  height: 13.53vw;
+  margin-bottom: 3.125vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629a4b62d66fa_t-icon-5%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+
+}
+.icon-6{
+  position: relative;
+  width: 13.53vw;
+    height: 13.53vw;
+  margin-bottom: 3.125vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629d30e2d66fb_t-icon-6%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+
+}
+.t-list-wrap-3{
+  margin-top: 9.375vw;
+  width: 51.03vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.t-bg-visual-3{
+
+  width: 10.2vw;
+  height: 9.5vw;
+  top: 637vw;
+  left: 38vw;
+
+  
+}
+.wrap-content-3{
+  margin-bottom: 8.3333vw;
+}
+.div-block-56{
+  margin-bottom: 2.08vw;
+}
+.div-block-57{
+
+  margin-bottom: 4.16vw;
+}
+.h-3-width{
+  margin-bottom: 0px;
+}
+.div-block-28{
+margin-bottom: 21.667px;
+}
+.subtitle-1-width{
+  margin-bottom: 0px;
+}
+.div-block-57-2{
+  margin-bottom: 4.16vw;
+}
+// Parte 5 
+.here-section-5{
+  width: 100%;
+  margin-top: 16vw;
+}
+.here-container-5{
+  width: 83.332vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-block-61{
+  margin-bottom: 6vw;
+}
+.subtitle-1-width{
+  margin-bottom: 0px;
+}
+.text-span-46{
+  color: #009e82;
+
+}
+.text-block-4{
+  display: block;
+  font-size: 3.125vw;
+  letter-spacing: -0.48px;
+  line-height: 4.166vw;
+  text-align: center;
+  color: #1a1b1c;
+  font-weight: 500;
+  margin-bottom: 7.666vw;
+}
+.text-block-4-mobile{
+  display: none;
+}
+.div-block-96{
+  width: 78.07vw;
+  margin-bottom: 5vw;
+}
+
+.div-block-63{
+  margin-bottom: 5.20vw;
+}
+.btn-2{
+  display: flex;
+  margin-left: 0;
+  margin-right: auto;
+  width: 17.57vw;
+  height: 5.20vw;
+  background-color: rgba(202,233,226,0.64);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8.26vw;
+  border-radius:1.04vw
+
+}
+.btn-2-text{
+  color: #009e82;
+  font-size: 1.82vw;
+  font-weight: 600;
+  line-height: 3.125vw;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 1.04vw;
+}
+.t-bg-visual-4{
+  
+    
+    top: 883vw;
+    left: 6vw;
+    width: 17.18vw;
+    height: 18.48vw;
+
+    
+  }
+.visual-3-video-mobile{
+  display: none;
+}
+
+.visual-3-video-tablet{
+  display: block;
+  width: 91.14vw;
+  height: 60.54vw;
+  margin-left:-1.92vw;
+
+}
+.visual-3-video-desktop{
+  display: none;
+
+}
+.t-visual-3-2{
+  display: none;
+}
+.icon-7{
+  position: relative;
+  width: 13.53vw;
+  height: 13.53vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.125vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562979c52d6706_t-icon-7%402x.svg);
+
+}
+.icon-8{
+  position: relative;
+  width: 13.53vw;
+  height: 13.53vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.125vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629bd182d670b_t-icon-8%402x.svg);
+}
+.icon-9{
+  position: relative;
+  width: 13.53vw;
+  height: 13.53vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.125vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629ce9f2d670d_t-icon-9%402x.svg);
+
+}
+.t-list-wrap-4{
+  margin-top: 10.5vw;
+}
+.wrap-content-4{
+  width: 51.03vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrap-content-4-1{
+  width: 51.03vw;
+  margin-top: 8.33vw;
+}
+.desc-wrap-2{
+width:71.35vw;
+margin-left: auto;
+margin-right: auto;
+}
+}

@@ -1,0 +1,2956 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.translate {
+  animation-name: translate;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(60px);
+  }
+}
+.translate-1 {
+  animation-name: translate-1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes translate-1 {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    color: #165624;
+  }
+}
+@keyframes translate-2 {
+  0% {
+    transform: scale(0.8);
+  }
+}
+.footer {
+  padding-bottom: 15.5vw;
+  position: absolute;
+  margin-top: 2190.3vw;
+  width: 100%;
+}
+
+.container-footer {
+  width: 87.5vw;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-35 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-logo {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-1 {
+  margin-bottom: 2.5vw;
+  width: 34.0638vw;
+  height: 10vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.copyright {
+  color: #81848a;
+  font-size: 3.75vw;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  height: 2.25vw;
+  line-height: 7.5vw;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-list-wrap {
+  margin-bottom: 15vw;
+  margin-left: 0px;
+  text-align: center;
+  line-height: 6.8611vw;
+}
+
+.nav-title {
+  margin-bottom: 5vw;
+  font-size: 3.75vw;
+  color: #1a1b1c;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+.list-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  font-size: 4.36vw;
+  line-height: 6.8vw;
+  margin-bottom: 3.75vw;
+  color: #81848a;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+}
+.list-item:hover {
+  color: #33b29b;
+}
+
+.list-item-1 {
+  font-size: 4.36vw;
+  line-height: 6.8vw;
+  margin-bottom: 0vw;
+  color: #81848a;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+}
+.list-item-1:hover {
+  color: #33b29b;
+}
+
+.link-footer-1 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-2 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-3 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-4 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-5 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-6 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.link-footer-7 {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-bottom: 0vw;
+    margin-top: 546.5vw;
+  }
+
+  .container-footer {
+    width: 78.125vw;
+    margin-top: 65.0333vw;
+    margin-bottom: 8.5vw;
+  }
+
+  .div-block-35 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    margin-top: 0px;
+  }
+
+  .footer-logo-1 {
+    width: 14.1917vw;
+    height: 4.1646vw;
+  }
+
+  .copyright {
+    font-size: 1.5625vw;
+    letter-spacing: 0.24px;
+    height: 3.125vw;
+    line-height: 3.125vw;
+  }
+
+  .footer-navigation {
+    flex-direction: row;
+    height: 17.707vw;
+  }
+
+  .nav-list-wrap {
+    margin-bottom: 0vw;
+    margin-left: 6.25vw;
+    text-align: left;
+    line-height: 3.125vw;
+    height: 100%;
+  }
+
+  .nav-title {
+    margin-bottom: 2.08vw;
+    font-size: 1.5vw;
+    color: #1a1b1c;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    line-height: 3.125vw;
+  }
+
+  .list-item {
+    font-size: 1.9vw;
+    line-height: 3.1vw;
+    margin-bottom: 1.5vw;
+    color: #81848a;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+  }
+  .list-item:hover {
+    color: #33b29b;
+  }
+
+  .list-item-1 {
+    margin-bottom: 0px;
+    font-size: 1.953vw;
+    line-height: 3.125vw;
+  }
+}
+@media screen and (min-width: 990px) {
+  .footer {
+    position: absolute;
+    height: 9.4166vw;
+    margin-top: 274vw;
+    padding-bottom: 14.1vw;
+  }
+
+  .container-footer {
+    width: 83.332vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+
+  .div-block-35 {
+    margin-bottom: 0px;
+    height: 9.4166vw;
+    width: 83.332vw;
+  }
+
+  .footer-logo {
+    margin-top: 0px;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer-logo-1 {
+    width: 7.56vw;
+    height: 2.221vw;
+  }
+
+  .copyright {
+    font-size: 0.83vw;
+    letter-spacing: 0.24px;
+    height: 1.58vw;
+    line-height: 1.66vw;
+  }
+
+  .footer-navigation {
+    flex-direction: row;
+    height: 9.4166vw;
+  }
+
+  .nav-list-wrap {
+    margin-bottom: 0vw;
+    margin-left: 6.25vw;
+    text-align: left;
+    line-height: 3.125vw;
+    height: 100%;
+  }
+
+  .nav-title {
+    margin-bottom: 1.1vw;
+    font-size: 0.8vw;
+    color: #1a1b1c;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    line-height: 1.6666vw;
+  }
+
+  .list-item {
+    font-size: 1.04vw;
+    line-height: 1.6vw;
+    margin-bottom: 0.8vw;
+    color: #81848a;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+  }
+  .list-item:hover {
+    color: #33b29b;
+  }
+
+  .list-item-1 {
+    font-size: 1.04vw;
+    line-height: 1.666vw;
+    margin-bottom: 0.833vw;
+  }
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 17.5vw;
+  top: 0;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  background-color: #fff;
+}
+
+.container-header {
+  width: 87.5vw;
+  height: 57.14%;
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  cursor: pointer;
+  width: 39%;
+  height: 100%;
+  outline: 0;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.nav-list {
+  display: none;
+}
+
+.nav-list-active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  top: 17.5vw;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-top: 0vw;
+}
+
+.link-block-3 {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 33.33vw;
+  color: #81848a;
+  font-size: 7.5vw;
+  font-weight: 500;
+  line-height: 10vw;
+}
+
+.link-block-2 {
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  color: #81848a;
+  margin-top: 13.11vw;
+  font-size: 7.5vw;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+}
+
+.link-block {
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  color: #81848a;
+  margin-top: 14.72vw;
+  font-size: 7.5vw;
+  font-weight: 500;
+  color: #009e82;
+}
+
+.menu-open {
+  width: 8.5%;
+  height: 75%;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156297cdf2d671c_menu-open%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.menu-open-desactive {
+  width: 0px;
+  height: 0px;
+}
+
+.menu-2-open {
+  display: none;
+}
+
+.menu-2-open-active {
+  display: flex;
+}
+
+.text-block-9 {
+  font-weight: 500;
+  color: #009e82;
+  cursor: pointer;
+  font-size: 4.375vw;
+  line-height: 7.5vw;
+  letter-spacing: 0.28px;
+  margin-right: 2.5vw;
+}
+
+.icon-close-default {
+  width: 7.5vw;
+  height: 7.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562969d02d672c_pop-up-close-hover%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+@media screen and (min-width: 480px) {
+  .nav-list {
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+
+  .nav-list-active {
+    display: none;
+  }
+
+  .nav-list-desactive {
+    display: none;
+  }
+
+  .navigation {
+    height: 9.375vw;
+  }
+
+  .container-header {
+    height: 44.41%;
+    width: 78.1247vw;
+  }
+
+  .nav-list {
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+
+  .link-block-3 {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 0px;
+  }
+
+  .link-block-2 {
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 0px;
+  }
+
+  .link-block {
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 0px;
+  }
+
+  .nav-list-item-active {
+    color: #009e82;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    margin-left: 5.2083vw;
+    font-size: 1.953124vw;
+    line-height: 3.1249vw;
+  }
+
+  .nav-list-item {
+    color: #81848a;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    margin-left: 5.2083vw;
+    font-size: 1.953124vw;
+    line-height: 3.1249vw;
+  }
+
+  .nav-list-item:hover {
+    color: #33b29b;
+  }
+
+  .menu-open {
+    display: none;
+  }
+
+  .menu-2-open {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 14.1933vw;
+    height: 4.1642vw;
+  }
+}
+@media screen and (min-width: 990px) {
+  .navigation {
+    height: 4.9986vw;
+  }
+
+  .container-header {
+    height: 2.2216vw;
+    width: 83.3316vw;
+  }
+
+  .nav-list-item-active {
+    font-size: 1.041666vw;
+    line-height: 1.6666vw;
+    margin-left: 2.77775vw;
+  }
+
+  .nav-list-item {
+    font-size: 1.041666vw;
+    line-height: 1.6666vw;
+    margin-left: 2.77775vw;
+  }
+
+  .nav-logo {
+    width: 7.5691vw;
+    height: 2.2216vw;
+  }
+}
+.navigation-desactive {
+  display: none;
+}
+
+.navigation-1 {
+  display: flex;
+  width: 100%;
+  height: 17.5vw;
+  top: 0;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  background-color: #fff;
+}
+
+.container-header-1 {
+  width: 87.5vw;
+  height: 57.14%;
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.nav-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo-1 {
+  cursor: pointer;
+  width: 39%;
+  height: 100%;
+  outline: 0;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629dd6f2d66bc_logo%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.menu-close {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .navigation-1 {
+    height: 9.375vw;
+  }
+
+  .container-header-1 {
+    width: 78.125vw;
+    height: 9.375vw;
+  }
+
+  .nav-logo-1 {
+    width: 14.1vw;
+    height: 4.15vw;
+  }
+
+  .text-block-9 {
+    font-size: 1.8vw;
+    margin-right: 1.04vw;
+    color: #81848a;
+  }
+
+  .icon-close-default {
+    width: 3.125vw;
+    height: 3.125vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629f1332d66af_pop-up-close%402x.svg);
+  }
+}
+@media screen and (min-width: 990px) {
+  .navigation-1 {
+    height: 4.99vw;
+  }
+
+  .container-header-1 {
+    width: 83.332vw;
+    height: 4.99vw;
+  }
+
+  .nav-logo-1 {
+    width: 7.569vw;
+    height: 2.22vw;
+  }
+
+  .text-block-9 {
+    font-size: 0.9vw;
+    margin-right: 0.55vw;
+  }
+
+  .icon-close-default {
+    width: 1.66vw;
+    height: 1.66vw;
+  }
+}
+.here-section-1 {
+  margin-top: 17.5vw;
+}
+
+.here-desktop {
+  display: none;
+}
+
+.here-tablet {
+  display: none;
+}
+
+.here-mobile {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.container-section-1 {
+  position: absolute;
+  width: 100%;
+}
+
+.content-section-1 {
+  display: block;
+  width: 88vw;
+  margin-top: 69.375vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-block-37 {
+  margin-bottom: 7.5vw;
+}
+
+.margin {
+  margin-bottom: 5vw;
+}
+
+.h-2 {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.4px;
+  font-size: 12.18vw;
+  line-height: 15vw;
+  color: #f6fcfb;
+}
+
+.text-span-12 {
+  color: #00edc2;
+}
+
+.desc-1 {
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+  line-height: 7.5vw;
+  font-size: 4.68vw;
+  color: #cae9e2;
+}
+
+.fa-chevron-down {
+  display: none;
+}
+
+.dark-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 22, 20, 0.6) 0%,
+    rgba(6, 22, 20, 0.594812) 7.66%,
+    rgba(6, 22, 20, 0.578694) 15.32%,
+    rgba(6, 22, 20, 0.551004) 22.99%,
+    rgba(6, 22, 20, 0.511553) 30.65%,
+    rgba(6, 22, 20, 0.460935) 38.31%,
+    rgba(6, 22, 20, 0.40087) 45.97%,
+    rgba(6, 22, 20, 0.334385) 53.63%,
+    rgba(6, 22, 20, 0.265615) 61.3%,
+    rgba(6, 22, 20, 0.19913) 68.96%,
+    rgba(6, 22, 20, 0.139065) 76.62%,
+    rgba(6, 22, 20, 0.0884468) 84.28%,
+    rgba(6, 22, 20, 0.0489959) 91.94%,
+    rgba(6, 22, 20, 0.021306) 99.6%,
+    rgba(6, 22, 20, 0.00518832) 107.27%,
+    rgba(6, 22, 20, 0) 114.93%
+  );
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.here-section-2 {
+  position: absolute;
+  margin-top: 322vw;
+  width: 100%;
+}
+
+.div-block-31 {
+  margin-bottom: 15vw;
+}
+
+.here-container-2 {
+  display: block;
+  width: 87.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-3 {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.78px;
+  font-size: 7.5vw;
+  line-height: 10vw;
+  color: #1a1b1c;
+}
+
+.text-span-10 {
+  color: #009e82;
+}
+
+.image-personal-1 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-2 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-3 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-4 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-5 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-6 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-7 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47.5vw;
+  height: 12.5vw;
+  background-color: rgba(202, 233, 255, 0.4);
+  border-radius: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-1:hover {
+  background-color: rgba(202, 233, 255, 0.64);
+  cursor: pointer;
+}
+
+.posicion {
+  color: #81848a;
+  font-size: 4.375vw;
+  letter-spacing: 0.3px;
+  line-height: 7.5vw;
+  margin-bottom: 1.25vw;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.name {
+  color: #152536;
+  font-size: 6.25vw;
+  line-height: 8.75vw;
+  font-weight: 500;
+  margin-bottom: 3.75vw;
+  text-align: center;
+}
+
+.btn-1-text {
+  color: #009e82;
+  font-size: 4.375vw;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  line-height: 7.5vw;
+  margin-right: 2.5vw;
+  text-transform: uppercase;
+}
+
+.btn-1-icon {
+  width: 5.626vw;
+  height: 5.626vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629992d2d6756_btn-2-arrow-default%402x.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.btn-1-icon:hover {
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+}
+
+.team-perfiles {
+  margin-bottom: 15vw;
+}
+
+.team-column-1 {
+  margin-bottom: 34.72vw;
+}
+
+.margin-2 {
+  margin-bottom: 0px;
+}
+
+.team-column-2 {
+  margin-bottom: 40.27vw;
+}
+
+.here-section-3 {
+  position: absolute;
+  margin-top: 1458vw;
+  width: 100%;
+}
+
+.here-container-3 {
+  width: 87.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-span-11 {
+  color: #009e82;
+}
+
+.here-container-text {
+  margin-bottom: 20vw;
+}
+
+.div-block-33 {
+  margin-bottom: 7.5vw;
+}
+
+.desc-2 {
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+  line-height: 7.5vw;
+  font-size: 4.68vw;
+  color: #81848a;
+}
+
+.image-personal-8 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.image-personal-9 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 6.25vw;
+}
+
+.section3-posicion-absoluta {
+  position: absolute;
+  left: auto;
+  top: -52vw;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 299vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629d61c2d671d_c-shape-bg-grey-1-mobile%402x.svg);
+  z-index: -99;
+}
+
+.absolute-visual-4 {
+  position: absolute;
+  left: auto;
+  top: -12vw;
+  right: auto;
+  bottom: auto;
+  width: 24.6vw;
+  height: 24.6vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629064f2d66d6_c-bg-visual-4%402x.svg);
+}
+
+.h-section-4 {
+  width: 100%;
+  margin-bottom: 17.5vw;
+  position: absolute;
+  margin-top: 1910vw;
+}
+
+.here-video-2 {
+  position: absolute;
+  width: 100%;
+}
+
+.here-video-2-mobile {
+  display: block;
+  width: 100%;
+}
+
+.here-video-2-mobile-1 {
+  position: relative;
+  z-index: -1;
+  height: 262.0051vw;
+}
+
+.here-video-2-tablet {
+  display: none;
+}
+
+.here-video-2-desktop {
+  display: none;
+}
+
+.h-section-7-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 87.5%;
+  padding-top: 16.6vw;
+}
+
+.div-block-36 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.div-block-21 {
+  margin-bottom: 7.5vw;
+}
+
+.h-2 {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.4px;
+  font-size: 12.8vw;
+  line-height: 15vw;
+  color: #f6fcfb;
+}
+
+.text-span-7 {
+  color: #00edc2;
+}
+
+.div-block-20 {
+  margin-bottom: 15vw;
+}
+
+.desc-1 {
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+  line-height: 7.5vw;
+  font-size: 4.6vw;
+  color: #cae9e2;
+}
+
+.btn-2 {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  width: 36.52vw;
+  height: 12.5vw;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 237, 194, 0.16),
+    rgba(0, 237, 194, 0.16)
+  );
+  border-radius: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-2:hover {
+  background-color: rgba(202, 233, 255, 0.64);
+  cursor: pointer;
+}
+
+.cta-widget-section-7 {
+  width: 100%;
+  height: 78.8888vw;
+  position: relative;
+  margin-bottom: 17.5vw;
+}
+
+.btn-1-text-2 {
+  color: #00edc2;
+  font-size: 4.375vw;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  line-height: 7.5vw;
+  margin-right: 2.5vw;
+  text-transform: uppercase;
+}
+
+.div-block-22 {
+  position: absolute;
+  left: 24.3vw;
+  top: 26.5vw;
+  right: auto;
+  bottom: auto;
+  width: 45vw;
+  height: 27.1vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562902bb2d66d7_1%402x.svg);
+}
+
+.div-block-23 {
+  position: absolute;
+  left: 25.3vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 32.5vw;
+  height: 28.8vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629e1aa2d66c6_2%402x.svg);
+}
+
+.div-block-24 {
+  position: absolute;
+  left: auto;
+  top: 11.5vw;
+  right: 1.25vw;
+  bottom: auto;
+  width: 27.7vw;
+  height: 24.3vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562936ba2d66dc_3%402x.svg);
+}
+
+.div-block-25 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 5.2vw;
+  bottom: 11.5vw;
+  width: 31.2vw;
+  height: 30vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c013115629b4e92d66ca_4%402x.svg);
+}
+
+.div-block-26 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 28.3vw;
+  bottom: 1.8vw;
+  width: 27.5vw;
+  height: 24.02vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629a5bb2d66e4_5%402x.svg);
+}
+
+.div-block-27 {
+  position: absolute;
+  left: 1.2vw;
+  top: auto;
+  right: auto;
+  bottom: 10vw;
+  width: 31.9vw;
+  height: 31.9vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562966cc2d66ce_6%402x.svg);
+}
+
+.div-block-28 {
+  position: absolute;
+  left: 2.5vw;
+  top: 9vw;
+  right: auto;
+  bottom: auto;
+  width: 27.5vw;
+  height: 26.8vw;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562983762d66c9_7%402x.svg);
+}
+
+@media screen and (min-width: 480px) {
+  .here-section-1 {
+    margin-top: 9.375vw;
+  }
+
+  .here-desktop {
+    display: none;
+  }
+
+  .here-mobile {
+    display: none;
+  }
+
+  .here-tablet {
+    display: block;
+    position: relative;
+    width: 92.14%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-tablet-1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .container-section-1 {
+    position: absolute;
+    width: 100%;
+  }
+
+  .content-section-1 {
+    display: block;
+    width: 78.125vw;
+    margin-top: 64.06vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-block-37 {
+    margin-bottom: 5.2vw;
+  }
+
+  .div-block-38 {
+    width: 54.68vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .margin {
+    margin-bottom: 2.08vw;
+  }
+
+  .h-2 {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -1.4px;
+    font-size: 9.375vw;
+    line-height: 9.375vw;
+    color: #f6fcfb;
+  }
+
+  .text-span-12 {
+    color: #00edc2;
+  }
+
+  .desc-1 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+    line-height: 3.125vw;
+    font-size: 1.95vw;
+    color: #cae9e2;
+  }
+
+  .fa-chevron-down {
+    display: none;
+  }
+
+  .dark-overlay {
+    left: 4vw;
+  }
+}
+@media screen and (min-width: 480px) {
+  .here-section-2 {
+    margin-top: 167.5vw;
+  }
+
+  .div-block-31 {
+    margin-bottom: 4vw;
+  }
+
+  .here-container-2 {
+    width: 78.1vw;
+  }
+
+  .h-3 {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.78px;
+    font-size: 5.07vw;
+    line-height: 6.25vw;
+    color: #1a1b1c;
+  }
+
+  .text-span-10 {
+    color: #009e82;
+  }
+
+  .image-personal-1 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-2 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-3 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-4 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-5 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-6 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+    background-position: 0px 50%;
+  }
+
+  .image-personal-7 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .posicion {
+    color: #81848a;
+    font-size: 1.8vw;
+    letter-spacing: 0.3px;
+    line-height: 3.125vw;
+    margin-bottom: 0.5vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .name {
+    color: #152536;
+    font-size: 2.5vw;
+    line-height: 3.63vw;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+    text-align: center;
+  }
+
+  .btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19.78vw;
+    height: 5.2vw;
+    background-color: rgba(202, 233, 255, 0.4);
+    border-radius: 1.04vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-1:hover {
+    background-color: rgba(202, 233, 255, 0.64);
+    cursor: pointer;
+  }
+
+  .btn-1-text {
+    color: #009e82;
+    font-size: 1.8vw;
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    line-height: 3.125vw;
+    margin-right: 1.04vw;
+    text-transform: uppercase;
+  }
+
+  .btn-1-icon {
+    width: 2.34vw;
+    height: 2.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629992d2d6756_btn-2-arrow-default%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .btn-1-icon:hover {
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+  }
+
+  .team-perfiles {
+    width: 22.656vw;
+    margin-bottom: 0vw;
+  }
+
+  .team-column-1 {
+    margin-bottom: 10.72vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .margin-2 {
+    margin-bottom: 0px;
+  }
+
+  .team-column-2 {
+    margin-bottom: 13.7vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .margin-name {
+    margin-bottom: 4.8vw;
+  }
+
+  .margin-name-1 {
+    margin-bottom: 1.9vw;
+  }
+
+  .here-section-3 {
+    position: absolute;
+    margin-top: 352.7vw;
+    width: 100%;
+  }
+
+  .here-container-3 {
+    width: 78.1vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-container-text {
+    width: 76.7vw;
+  }
+
+  .text-span-11 {
+    color: #009e82;
+  }
+
+  .here-container-text {
+    margin-bottom: 9.3vw;
+  }
+
+  .div-block-33 {
+    margin-bottom: 4.1vw;
+  }
+
+  .team-perfiles-margin {
+    margin-right: 5vw;
+  }
+
+  .desc-2 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+    line-height: 3.125vw;
+    font-size: 1.95vw;
+    color: #81848a;
+  }
+
+  .image-personal-8 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .image-personal-9 {
+    width: 22.6vw;
+    height: 22.6vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 3.125vw;
+  }
+
+  .scientific-advisory-fotos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section3-posicion-absoluta {
+    position: absolute;
+    left: auto;
+    top: -33vw;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 96vw;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629420a2d671e_c-shape-bg-grey-1%402x.svg);
+    margin-bottom: 3.4vw;
+    margin-top: 11.1vw;
+    padding-top: 21.9vw;
+    z-index: -99;
+  }
+
+  .absolute-visual-4 {
+    display: none;
+  }
+
+  .h-section-4 {
+    width: 100%;
+    margin-bottom: 17.5vw;
+    position: absolute;
+    margin-top: 444.2vw;
+  }
+
+  .here-video-2 {
+    position: absolute;
+    width: 100%;
+  }
+
+  .here-video-2-mobile {
+    display: none;
+  }
+
+  .here-video-2-tablet {
+    display: block;
+    width: 91.1448%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-video-2-tablet-1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .here-video-2-desktop {
+    display: none;
+  }
+
+  .h-section-7-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 78.125%;
+    padding-top: 10.6vw;
+  }
+
+  .div-block-36 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .div-block-21 {
+    margin-bottom: 5.1vw;
+  }
+
+  .h-2 {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -1.4px;
+    font-size: 9.375vw;
+    line-height: 9.375vw;
+    color: #f6fcfb;
+  }
+
+  .div-block-20 {
+    margin-bottom: 8.3vw;
+  }
+
+  .desc-1 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+    line-height: 3.125vw;
+    font-size: 1.95vw;
+    color: #cae9e2;
+  }
+
+  .btn-2 {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 15.09vw;
+    height: 5.1vw;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 237, 194, 0.16),
+      rgba(0, 237, 194, 0.16)
+    );
+    border-radius: 1.04vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-2:hover {
+    background-color: rgba(202, 233, 255, 0.64);
+    cursor: pointer;
+  }
+
+  .btn-1-text-2 {
+    color: #00edc2;
+    font-size: 1.8vw;
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    line-height: 3.7vw;
+    margin-right: 1.03vw;
+    text-transform: uppercase;
+  }
+
+  .cta-widget-section-7 {
+    width: 100%;
+    height: 82.11vw;
+    position: relative;
+    margin-bottom: 0vw;
+  }
+
+  .content-h-section-7 {
+    width: 64.37vw;
+  }
+
+  .div-block-22 {
+    position: absolute;
+    left: 21.3vw;
+    top: 23.855vw;
+    right: auto;
+    bottom: auto;
+    width: 40.3vw;
+    height: 24.2vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-23 {
+    position: absolute;
+    left: 23.03vw;
+    top: 0vw;
+    right: auto;
+    bottom: auto;
+    width: 29.1vw;
+    height: 25.9vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-24 {
+    position: absolute;
+    left: auto;
+    top: 10.5277vw;
+    right: 1.5vw;
+    bottom: auto;
+    width: 24.4vw;
+    height: 21.8vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-25 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 5.2vw;
+    bottom: 22.07vw;
+    width: 27.7vw;
+    height: 26.9vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-26 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 26.3vw;
+    bottom: 13.3vw;
+    width: 24.4vw;
+    height: 21.7vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-27 {
+    position: absolute;
+    left: 0.25vw;
+    top: auto;
+    right: auto;
+    bottom: 19.9vw;
+    width: 28.6vw;
+    height: 29.2vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-28 {
+    position: absolute;
+    left: 1.5vw;
+    top: 8.2vw;
+    right: auto;
+    bottom: auto;
+    width: 24.7vw;
+    height: 23.8vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 990px) {
+  .here-section-1 {
+    margin-top: 4.9986vw;
+  }
+
+  .here-mobile {
+    display: none;
+  }
+
+  .here-tablet {
+    display: none;
+  }
+
+  .here-desktop {
+    display: block;
+    position: relative;
+    width: 91.14%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-desktop-1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .container-section-1 {
+    position: absolute;
+    width: 100%;
+  }
+
+  .content-section-1 {
+    display: block;
+    width: 41.66vw;
+    margin-top: 4.36vw;
+    margin-right: 8.33vw;
+  }
+
+  .div-block-37 {
+    margin-bottom: 2.22vw;
+  }
+
+  .div-block-38 {
+    width: 40.97vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .margin {
+    margin-bottom: 1.1vw;
+  }
+
+  .h-2 {
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: -1.4px;
+    font-size: 5vw;
+    line-height: 5vw;
+    color: #f6fcfb;
+  }
+
+  .text-span-12 {
+    color: #00edc2;
+  }
+
+  .desc-1 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: left;
+    line-height: 1.66vw;
+    font-size: 1.04vw;
+    color: #cae9e2;
+  }
+
+  .fa-chevron-down {
+    display: block;
+    position: absolute;
+    left: 50vw;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: 90px;
+    height: 100%;
+    background-position: 0px 0px;
+    background-size: cover;
+    color: #333;
+  }
+
+  .dark-overlay {
+    width: 78vw;
+    height: 48.828vw;
+    left: 9vw;
+  }
+}
+@media screen and (min-width: 990px) {
+  .here-section-2 {
+    margin-top: 51vw;
+  }
+
+  .div-block-31 {
+    margin-bottom: 2.5vw;
+  }
+
+  .here-container-2 {
+    width: 83.3vw;
+  }
+
+  .h-3 {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.78px;
+    font-size: 2.7vw;
+    line-height: 3.3vw;
+    color: #1a1b1c;
+  }
+
+  .text-span-10 {
+    color: #009e82;
+  }
+
+  .image-personal-1 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-2 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-3 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-4 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-5 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-6 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+    background-position: 0px 50%;
+  }
+
+  .image-personal-7 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .posicion {
+    color: #81848a;
+    font-size: 0.9vw;
+    letter-spacing: 0.3px;
+    line-height: 1.6vw;
+    margin-bottom: 0.2vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .name {
+    color: #152536;
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+    font-weight: 500;
+    margin-bottom: 0.8vw;
+    text-align: center;
+  }
+
+  .btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.5vw;
+    height: 2.7vw;
+    background-color: rgba(202, 233, 255, 0.4);
+    border-radius: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-1:hover {
+    background-color: rgba(202, 233, 255, 0.64);
+    cursor: pointer;
+  }
+
+  .btn-1-text {
+    color: #009e82;
+    font-size: 0.9vw;
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    line-height: 1.6vw;
+    margin-right: 0.5vw;
+    text-transform: uppercase;
+  }
+
+  .btn-1-icon {
+    width: 1.2vw;
+    height: 1.2vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629992d2d6756_btn-2-arrow-default%402x.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .btn-1-icon:hover {
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562961222d6776_btn-2-arrow-hover%402x.svg);
+  }
+
+  .team-perfiles {
+    width: 18vw;
+    margin-bottom: 0vw;
+  }
+
+  .team-column-1 {
+    width: 62.51vw;
+    margin-bottom: 5.32vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .margin-2 {
+    margin-bottom: 0px;
+  }
+
+  .team-column-2 {
+    width: 62.51vw;
+    margin-bottom: 7.7vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .margin-name {
+    margin-bottom: 0.8vw;
+  }
+
+  .margin-name-1 {
+    margin-bottom: 0.9vw;
+  }
+
+  .here-section-3 {
+    position: absolute;
+    margin-top: 164vw;
+    width: 100%;
+  }
+
+  .here-container-3 {
+    width: 83.332vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-container-text {
+    width: 76.7vw;
+  }
+
+  .text-span-11 {
+    color: #009e82;
+  }
+
+  .here-container-text {
+    width: 61.8vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+  }
+
+  .div-block-33 {
+    margin-bottom: 2.2vw;
+  }
+
+  .team-perfiles-margin {
+    margin-right: 4.1vw;
+  }
+
+  .desc-2 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+    line-height: 1.66vw;
+    font-size: 1.04vw;
+    color: #81848a;
+  }
+
+  .image-personal-8 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .image-personal-9 {
+    width: 18.05vw;
+    height: 18.05vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 1.6vw;
+  }
+
+  .scientific-advisory-fotos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section3-posicion-absoluta {
+    position: absolute;
+    left: auto;
+    top: -14vw;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 60vw;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c014115629420a2d671e_c-shape-bg-grey-1%402x.svg);
+    margin-bottom: 23.3px;
+    margin-top: 26.6px;
+    padding-top: 140px;
+    z-index: -99;
+  }
+
+  .absolute-visual-4 {
+    display: none;
+  }
+
+  .h-section-4 {
+    width: 100%;
+    margin-bottom: 17.5vw;
+    position: absolute;
+    margin-top: 218vw;
+  }
+
+  .here-video-2 {
+    position: absolute;
+    width: 100%;
+  }
+
+  .here-video-2-mobile {
+    display: none;
+  }
+
+  .here-video-2-tablet {
+    display: none;
+  }
+
+  .here-video-2-desktop {
+    display: block;
+    width: 91.1448%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .here-video-2-desktop-1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .h-section-7-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 83.332vw;
+    padding-top: 9vw;
+  }
+
+  .div-block-36 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .div-block-21 {
+    margin-bottom: 3.3vw;
+  }
+
+  .h-2 {
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: -1.4px;
+    font-size: 5vw;
+    line-height: 5vw;
+    color: #f6fcfb;
+  }
+
+  .div-block-20 {
+    margin-bottom: 3.3vw;
+  }
+
+  .desc-1 {
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: left;
+    line-height: 1.66vw;
+    font-size: 1.04vw;
+    color: #cae9e2;
+  }
+
+  .btn-2 {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 8.05vw;
+    height: 2.7vw;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 237, 194, 0.16),
+      rgba(0, 237, 194, 0.16)
+    );
+    border-radius: 0.55vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .btn-2:hover {
+    background-color: rgba(202, 233, 255, 0.64);
+    cursor: pointer;
+  }
+
+  .btn-1-text-2 {
+    color: #00edc2;
+    font-size: 0.9vw;
+    font-weight: 600;
+    letter-spacing: 0.28px;
+    line-height: 1.6vw;
+    margin-right: 0.55vw;
+    text-transform: uppercase;
+  }
+
+  .cta-widget-section-7 {
+    width: 41.665vw;
+    height: 34vw;
+    position: relative;
+    margin-bottom: 0vw;
+  }
+
+  .content-h-section-7 {
+    width: 34.63vw;
+  }
+
+  .div-block-22 {
+    position: absolute;
+    left: 11.6vw;
+    top: 11.5vw;
+    right: auto;
+    bottom: auto;
+    width: 21.9vw;
+    height: 13.06vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-23 {
+    position: absolute;
+    left: 12.5vw;
+    top: -1.5vw;
+    right: auto;
+    bottom: auto;
+    width: 15.9vw;
+    height: 14.1vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-24 {
+    position: absolute;
+    left: auto;
+    top: 3.8vw;
+    right: 0.25vw;
+    bottom: auto;
+    width: 13.2vw;
+    height: 11.8vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-25 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 1.9vw;
+    bottom: 2.9vw;
+    width: 15.03vw;
+    height: 14.4vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-26 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 13.3vw;
+    bottom: -2.3vw;
+    width: 13.2vw;
+    height: 11.6vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-27 {
+    position: absolute;
+    left: 0.25vw;
+    top: auto;
+    right: auto;
+    bottom: 1.9vw;
+    width: 15.3vw;
+    height: 15.6vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+  .div-block-28 {
+    position: absolute;
+    left: 0.5vw;
+    top: 3.02vw;
+    right: auto;
+    bottom: auto;
+    width: 13.4vw;
+    height: 12.9vw;
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+}
+.body-active {
+  display: block;
+}
+
+.body-desactive {
+  display: none;
+}
+
+.jack-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.kevin-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.dylan-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.baeza-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.boddu-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.madison-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.haldar-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.rob-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.charles-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 17.5vw;
+  left: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.ocultar-description {
+  left: 0;
+}
+
+.image-personal-10 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-11 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-12 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-13 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-14 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-15 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-16 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-17 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.image-personal-18 {
+  width: 100%;
+  height: 87.5vw;
+  background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.info {
+  width: 87.5vw;
+  margin-top: 7.5vw;
+  margin-bottom: 11.25vw;
+}
+
+.posicion-1 {
+  font-size: 4.3vw;
+  line-height: 7.5vw;
+  color: #81848a;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+.name-description {
+  color: #152536;
+  font-size: 7.5vw;
+  line-height: 10vw;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  margin-top: 1.2vw;
+  margin-bottom: 6.2vw;
+}
+
+.bio {
+  width: 87.5vw;
+  padding-bottom: 50vw;
+}
+
+.desc-3 {
+  color: #81848a;
+  font-size: 6.23vw;
+  line-height: 8.7vw;
+  letter-spacing: -0.48px;
+}
+
+@media screen and (min-width: 480px) {
+  .jack-description {
+    top: 9.375vw;
+  }
+
+  .kevin-description {
+    top: 9.375vw;
+  }
+
+  .dylan-description {
+    top: 9.375vw;
+  }
+
+  .baeza-description {
+    top: 9.375vw;
+  }
+
+  .boddu-description {
+    top: 9.375vw;
+  }
+
+  .madison-description {
+    top: 9.375vw;
+  }
+
+  .haldar-description {
+    top: 9.375vw;
+  }
+
+  .rob-description {
+    top: 9.375vw;
+  }
+
+  .charles-description {
+    top: 9.375vw;
+  }
+
+  .image-personal-10 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-11 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-12 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-13 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-14 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-15 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-16 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-17 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-18 {
+    width: 58.5vw;
+    height: 58.5vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    width: 78.125vw;
+    margin-top: 6vw;
+    margin-bottom: 9.375vw;
+  }
+
+  .posicion-1 {
+    font-size: 1.8vw;
+    line-height: 3.125vw;
+    color: #81848a;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+  }
+
+  .name-description {
+    color: #152536;
+    font-size: 3.125vw;
+    line-height: 4.16vw;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    margin-top: 0.51vw;
+    margin-bottom: 3.125vw;
+  }
+
+  .bio {
+    width: 78.125vw;
+    padding-bottom: 23vw;
+  }
+
+  .desc-3 {
+    color: #81848a;
+    font-size: 3.125vw;
+    line-height: 4.16vw;
+    letter-spacing: -0.48px;
+  }
+
+  .div-absolute {
+    position: absolute;
+    left: 56vw;
+    top: 52vw;
+    right: auto;
+    bottom: auto;
+    width: 26.69vw;
+    height: 26.56vw;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562907942d672d_pop-up-bg-visual-1%402x.svg);
+    z-index: -99;
+  }
+}
+@media screen and (min-width: 990px) {
+  .jack-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .kevin-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .dylan-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .baeza-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .boddu-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .madison-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .haldar-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .rob-description {
+    top: 4.87vw;
+    overflow-y: hidden;
+  }
+
+  .charles-description {
+    top: 4.8vw;
+    overflow-y: hidden;
+  }
+
+  .image-personal-10 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156296f152d672e_Dr.%20Jack%20Gilbert%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-11 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01311562927f72d66ab_Kevin%20Honaker%402x.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-12 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c0141156293f9f2d672a_Dylan%20Nichols%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-13 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610828fbe68664a39fda88ad_Yoshiki_Headshot_Aug_2021.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-14 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610aa9f0f3ced975f313afe1_Nikhil%20Headshot%202-min.JPG);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-15 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/610db17067acf5eadb4795f2_Madison%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-16 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/613b6ee5cfeb871bbcf97ca3_Chandrika%20Headshot.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-17 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562966fb2d6723_Dr.%20Rob%20Knight%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .image-personal-18 {
+    width: 31.24vw;
+    height: 31.24vw;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562939932d6727_Dr.%20Charles%20Chiu%402x-min.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  .flex-direction {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info {
+    width: 31.24vw;
+    margin-top: 0vw;
+    margin-bottom: 46vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 7.91vw;
+    top: 3.58vw;
+  }
+
+  .posicion-1 {
+    font-size: 0.9vw;
+    line-height: 1.6vw;
+    color: #81848a;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    order: 2;
+    margin-top: 1.66vw;
+  }
+
+  .name-description {
+    color: #152536;
+    font-size: 1.66vw;
+    line-height: 2.2vw;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    margin-top: 0.275vw;
+    margin-bottom: 0vw;
+    order: 3;
+  }
+
+  .bio {
+    width: 41.66vw;
+    padding-bottom: 0vw;
+    position: absolute;
+    right: 8.33vw;
+    top: 3.66vw;
+  }
+
+  .desc-3 {
+    color: #81848a;
+    font-size: 1.66vw;
+    line-height: 2.2vw;
+    letter-spacing: -0.48px;
+  }
+
+  .div-absolute {
+    position: absolute;
+    left: 21.66vw;
+    top: -2.5vw;
+    right: auto;
+    bottom: auto;
+    width: 14.24vw;
+    height: 14.16vw;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-image: url(https://uploads-ssl.webflow.com/6100c013115629146c2d6689/6100c01411562907942d672d_pop-up-bg-visual-1%402x.svg);
+    z-index: -99;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
